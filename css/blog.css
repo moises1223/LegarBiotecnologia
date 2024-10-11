@@ -1,0 +1,252 @@
+@import url('variaveis.css');
+
+.sectionBlog {
+    scroll-margin-top: calc(var(--h-header) + 0em);
+    height: 120vh;
+    background-image: url('../img/bgblog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionBlog-content {
+    position: relative;
+    top: 4.5rem;
+
+    .sectionBlog-content-title {
+        text-align: center;
+
+        h1 {
+            font-size: 64px;
+            font-weight: 700;
+            color: var(--branco);
+            margin-bottom: 1rem;
+
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 500;
+            color: var(--branco);
+            margin-bottom: 3rem;
+        }
+    }
+
+    .cards-container-carroussel {
+        position: relative;
+        top: 20px;
+
+        .card-wrapper {
+            max-width: 1200px;
+            overflow: hidden;
+            margin: 0 60px 35px;
+            padding: 20px 10px;
+
+            .swiper-pagination-bullet {
+                height: 13px;
+                width: 13px;
+                opacity: 0.5;
+                background-color: var(--roxo);
+            }
+
+            .swiper-pagination-bullet-active {
+                opacity: 1;
+            }
+
+            .swiper-slide-button {
+                color: var(--roxo);
+                margin-top: -35px;
+            }
+
+            .card-list {
+                .card-item {
+                    .card-link {
+                        height: 560px;
+                        user-select: none;
+                        text-align: center;
+                        display: block;
+                        background: var(--verdeEscuro);
+                        padding: 10px;
+                        border-radius: 7px;
+                        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+                        border: 2px solid transparent;
+                        transition: transform 0.5s, background-color 0.5s, color 0.5s;
+                        transform: scale(1);
+
+                        &:hover {
+                            border-color: var(--verdeClaro);
+                            transform: scale(1.05);
+                            z-index: 2;
+
+                            .card-button {
+                                color: var(--branco);
+                                background-color: var(--verdeClaro);
+                            }
+                        }
+
+
+                        .card-img {
+                            width: 100%;
+                            aspect-ratio: 16 /9;
+                            object-fit: cover;
+                            border-radius: 7px;
+                        }
+
+                        .icon {
+                            top: -45px;
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                height: 90px;
+                                width: 90px;
+                            }
+                        }
+
+                        .card-title {
+                            color: var(--branco);
+                            margin: -45px 0 18px;
+                            font-size: 20px;
+                            font-weight: 700;
+                            padding: 8px 16px;
+                        }
+
+                        .description {
+                            font-size: 18px;
+                            color: var(--branco);
+                            font-weight: 500;
+
+                        }
+
+                        .badge-more {
+                            position: absolute;
+                            bottom: 33px;
+                            left: 127px;
+                            font-size: 18px;
+                            font-weight: 700;
+                            color: var(--verdeClaro);
+                        }
+
+                        .card-button {
+                            position: absolute;
+                            bottom: 20px;
+                            left: 30px;
+                            height: 35px;
+                            width: 35px;
+                            border-radius: 50%;
+                            background-color: transparent;
+                            margin: 30px 0 5px;
+                            color: var(--verdeClaro);
+                            border: 2px solid var(--verdeClaro);
+                            transform: rotate(-45deg);
+                            transition: 0.4s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {
+
+    .sectionBlog {
+        height: 140vh;
+
+        .sectionBlog-content {
+            .sectionBlog-content-title {
+
+                h1 {
+                    font-size: 33px;
+
+                }
+
+                p {
+
+                    font-size: 14px;
+                }
+            }
+
+            .cards-container-carroussel {
+                .card-wrapper {
+                    margin: 0 10px 25px;
+
+                    .card-list {
+                        .card-item {
+                            .card-link {
+                                .card-title {
+                                    font-size: 15px;
+                                }
+
+                                .description {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+
+                    .swiper-slide-button {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*           Resposividade     Tablet         */
+@media (min-width: 768px) and (max-width: 1440px) {
+    .sectionBlog {
+
+
+        .sectionBlog-content {
+            .sectionBlog-content-title {
+
+                h1 {
+                    font-size: 44px;
+
+                }
+
+                p {
+
+                    font-size: 20px;
+                }
+            }
+
+            .cards-container-carroussel {
+                .card-wrapper {
+                    margin: 0 10px 25px;
+
+                    .card-list {
+                        .card-item {
+                            .card-link {
+                                .card-title {
+                                    font-size: 18px;
+                                }
+
+                                .description {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+
+                    .swiper-slide-button {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    /*           Resposividade     lanscape         */
+
+
+    @media screen and (orientation: landscape) and (max-width: 1440px) {
+        .sectionBlog {
+            height: 150vh;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import url("variaveis.css");
+
+.blog-news {
+    height: 170vh;
+}
+
+.blog-news-content {
+    position: relative;
+    top: 4.5rem;
+    width: 50%;
+
+    .update-time {
+        margin-bottom: 1rem;
+
+        date {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--preto);
+        }
+    }
+
+    .news-banner {
+        margin-bottom: 1rem;
+        height: 347px;
+        width: 100%;
+        text-align: start;
+
+        img {
+            aspect-ratio: auto;
+            object-fit: cover;
+        }
+
+        .news-content-text {
+            .text {
+                font-size: 18px;
+                font-weight: 500;
+                color: var(--preto);
+            }
+
+            .bold {
+                font-weight: 600;
+            }
+        }
+    }
+}
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {}
+
+/*           Resposividade     Tablet         */
+@media (min-width: 769px) and (max-width: 1440px){}
+
+/*           Resposividade     lanscape         */
+
+@media screen and (orientation: landscape) and (max-width: 1024px){}

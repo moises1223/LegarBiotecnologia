@@ -1,0 +1,173 @@
+@import url("variaveis.css");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  padding: 30px 320px;
+  background-color: var(--preto);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* Cor de fundo transparente */
+  /* Aplica o efeito de blur ao fundo */
+  /* Para compatibilidade com WebKit (Safari) */
+  a{
+    .brand-logo{
+      height: 100%;
+      width: 184px;
+      margin-right: 50px;
+    }
+  }
+
+  .menu {
+    cursor: pointer;
+    display: none;
+
+    .bar {
+      display: block;
+      width: 28px;
+      height: 3px;
+      border: 3px;
+      background-color: var(--preto);
+      margin: 5px auto;
+      transition: all 0.3s;
+
+      .bar:nth-child(1),
+      .menu .bar:nth-child(3) {
+        background: var(--preto);
+      }
+
+    }
+  }
+}
+
+
+.nav-items {
+  .links-container {
+    display: flex;
+    gap: 4rem;
+
+
+
+    .link {
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--branco);
+      height: 24px;
+      width: 200px;
+      transition: transform 0.5s, background-color 0.5s, color 0.5s;
+      transform: scale(1);
+      /* Define o tamanho padrão */
+
+      &:hover {
+        transform: scale(1.1);
+        /* Aumenta o botão em 10% no hover */
+        color: var(--verdeClaro);
+      }
+    }
+  }
+}
+
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 30px 20px;
+
+    a {
+      .brand-logo{
+
+        width: 94px;
+      }
+
+    }
+
+    .menu {
+      display: block;
+    }
+
+    .menu.ativo .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .menu.ativo .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .menu.ativo .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu.ativo {
+      right: 0;
+      align-items: center;
+    }
+
+    .nav-items {
+
+      .links-container {
+        position: fixed;
+        right: -100%;
+        top: 100px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        transition: 0.3s;
+        padding: 20px;
+        background-color: var(--verdeEscuro);
+
+        .link-item {
+          margin: 16px 0;
+
+        }
+
+      }
+
+      .links-container.ativo {
+        right: 0;
+      }
+    }
+  }
+}
+
+/*           Resposividade     Tablet         */
+
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .navbar {
+    padding: 20px 90px;
+    a{
+      .brand-logo{
+        width: 100px;
+      }
+    }
+    .links-container{
+      .link{
+
+        font-size: 12px;
+      }
+    }
+  }
+  .container {
+    margin: 0 auto;
+    /* Centraliza o conteúdo */
+    padding: 0 10px;
+    /* Espaçamento nas laterais */
+    max-width: calc(100% - 30px);
+  }
+}
+
+/*           Resposividade     lanscape         */
+
+@media screen and (orientation: landscape) and (max-width: 1024px){}

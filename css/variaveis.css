@@ -1,0 +1,26 @@
+:root {
+        --h-header: 50px;
+        --branco:        #FFFFFF;
+        --verdeClaro:    #206BC6;
+        --verdeEscuro:   #00295A;
+        --preto:         #000000;
+        --cinza:         #9A9A9A;
+        --hoverBtn:      #9F9F9F;
+        --cinzaClaro:    #D9D9D9;
+        --CinzaEscuro:   #1C1C1C;
+        --verdeClaro2:   #6ACD47;
+        --roxo:          #5372f0;
+
+        --linearBtn: linear-gradient(var(--verdeClaro),
+                        var(--verdeEscuro));
+        --linearBtnHover: linear-gradient(var(--verdeEscuro),
+                        var(--verdeClaro));
+
+
+
+        --linearbg: linear-gradient(to right, var(--verdeEscuro),
+                        var(--verdeClaro));
+                        
+        --opLinear: linear-gradient(to left, var(--verdeEscuro),
+                        var(--verdeClaro));
+}

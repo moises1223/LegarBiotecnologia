@@ -1,0 +1,226 @@
+@import url('variaveis.css');
+
+.sec-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-image: url('../img/bgfooter.png');
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    
+    .section-footer-content {
+        position: relative;
+        top: 5rem;
+        margin-bottom: 5rem;
+
+        .blocks {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4rem;
+            
+
+            .block1 {
+                .block-content {
+                    img {
+                        height: 44px;
+                        width: 110px;
+                        margin-bottom: 1rem;
+                        margin-bottom: 3rem;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: var(--branco);
+                        margin-bottom: 1rem;
+                    }
+
+                    .contact {
+                        display: flex;
+
+                        p {
+                            font-weight: 500;
+                            font-size: 16px;
+                            color: var(--branco);
+                            margin-bottom: 2rem;
+
+                            margin-right: 1rem;
+                        }
+
+                    }
+
+                    .social-icons {
+                        a {
+                            cursor: pointer;
+                            gap: 1rem;
+                            margin-right: 1rem;
+
+                            img {
+                                height: 22px;
+                                width: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .block2 {
+                .block-content {
+                    h1 {
+                        font-weight: 600;
+                        font-size: 20px;
+                        color: var(--branco);
+                        margin-bottom: 1rem;
+                    }
+
+                    .items {
+                        .links-container {
+                            .link-item {
+                                margin-bottom: 1rem;
+
+                                .link {
+                                    cursor: pointer;
+                                    color: var(--branco);
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .block3 {
+                .block-content {
+                    h1{
+                        font-weight: 600;
+                        font-size: 20px;
+                        color: var(--branco);
+                        margin-bottom: 1rem;
+
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: var(--branco);
+                        margin-bottom: 2.5rem;
+                    }
+                    .form{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .email{
+                            height:33px;
+                            width: 100%;
+                            border: 1px;
+                            padding: 10px;
+                            border-radius: 5px;
+                            background-color: var(--branco);
+                            margin-bottom: 0.5rem;
+                        }
+                        input::placeholder{
+                            color: var(--hoverBtn);
+                        }
+                        a{
+                            width: 100%;
+                            button{
+                                cursor: pointer;
+                                font-weight: 500;
+                                font-size: 15px;
+                                color: var(--branco);
+                                height:33px;
+                                width: 100%;
+                                border: 1px solid var(--verdeClaro2);
+                                border-radius: 10px;
+                                background-color: transparent;
+                                transition: transform 0.5s, background-color 0.5s, color 0.5s;
+                                transform: scale(1); /* Define o tamanho padrão */
+
+                                &:hover{
+                                    color: var(--preto);
+                                    background-color: var(--verdeClaro2);
+                                    transform: scale(1.1); /* Aumenta o botão em 10% no hover */
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .website-info {
+            
+            display: flex;
+            justify-content: center;
+
+            p {
+                color: var(--branco);
+                a{
+                    color: var(--verdeClaro2);
+                }
+            }
+        }
+
+    }
+}
+
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {
+    .sec-footer {
+        height: 150vh;
+    
+        .sectionfooter {
+          text-align: center;
+    
+          .section-footer-content {
+            .blocks {
+              display: flex;
+              flex-direction: column;
+    
+              .block1 {
+                .block-content {
+                  .brand-logo {}
+    
+                  p {}
+    
+                  .contact {
+                    display: flex;
+                    flex-direction: column;
+    
+                    p {}
+                  }
+    
+    
+                }
+              }
+    
+              .block2 {}
+    
+              .block3 {}
+            }
+    
+            .website-info {
+              text-align: center;
+            }
+    
+          }
+        }
+      }
+}
+
+/*           Resposividade     Tablet         */
+@media (min-width: 769px) and (max-width: 1440px){}
+
+/*           Resposividade     lanscape         */
+
+
+@media screen and (orientation: landscape) and (max-width: 1440px) {
+    .sec-footer {
+      height: 70vh;
+    }
+   
+  }

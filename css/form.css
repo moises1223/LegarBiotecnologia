@@ -1,0 +1,254 @@
+@import url("variaveis.css");
+
+
+.sectionForms {
+  scroll-margin-top: calc(var(--h-header) + 1em);
+  height: 105vh;
+
+  .sectionForms-content-block {
+    position: relative;
+    top: 5rem;
+    display: flex;
+
+    .sectionForms-content {
+      width: 50%;
+
+      .form-content {
+        .sectionForms-title {
+          .title-p {
+            font-size: 20px;
+            font-weight: 500;
+            color: var(--verdeEscuro);
+            margin-bottom: 1.5rem;
+          }
+
+          h1 {
+            font-size: 64px;
+            font-weight: 700;
+            color: var(--verdeEscuro);
+            margin-bottom: 2rem;
+          }
+
+          .sub-title-p {
+            font-size: 24px;
+            font-weight: 500;
+            color: var(--preto);
+            margin-bottom: 1rem;
+          }
+        }
+
+        .sectionForms-form {
+          display: flex;
+          flex-direction: column;
+
+          input {
+            padding: 10px;
+            font-size: 24px;
+            height: 92px;
+            width: 100%;
+            outline: unset;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--preto);
+
+          }
+
+          .Mensagem {
+
+            height: 12rem;
+          }
+
+          &:placeholder {
+            color: var(--cinzaClaro);
+          }
+        }
+
+
+        button {
+          height: 58px;
+          width: 100%;
+          font: 15px;
+          border-radius: 5px;
+          font-weight: 500;
+          color: var(--branco);
+          background: var(--linearbg);
+          transition: transform 0.5s, background-color 0.5s, color 0.5s;
+          transform: scale(1);
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  .sectionVisit-content {
+    margin-left: 4rem;
+    margin-top: 9rem;
+
+    .visit-content {
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--verdeEscuro);
+        margin-bottom: 2rem;
+      }
+
+      .location,
+      .telephone,
+      .email {
+        display: flex;
+        margin-bottom: 1.5rem;
+
+        img {
+          margin-right: 1rem;
+          height: 38px;
+          width: 38px;
+        }
+
+        p {
+          font-size: 24px;
+          font-weight: 500;
+          color: var(--preto);
+        }
+      }
+    }
+
+    .openstreetmap-visualization {
+      
+      img {
+        width: 100%;
+        aspect-ratio: 16 /9;
+        object-fit: cover;
+        border-radius: 7px;
+      }
+    }
+  }
+
+}
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {
+  .sectionForms {
+    height: 200vh;
+
+    .sectionForms-content-block {
+      display: flex;
+      flex-direction: column;
+
+      .sectionForms-content {
+        text-align: center;
+        width: 100%;
+
+        .form-content {
+          .sectionForms-title {
+            .title-p {
+              font-size: 14px;
+            }
+
+            h1 {
+              font-size: 33px;
+            }
+
+            .sub-title-p {
+              font-size: 14px;
+            }
+          }
+
+          .sectionForms-form {
+            input {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .sectionVisit-content {
+      margin: 6rem auto;
+      text-align: center;
+      width: 100%;
+
+      .visit-content {
+
+
+        h1 {
+          font-size: 33px;
+        }
+
+        .location,
+        .telephone,
+        .email {
+          img {
+            margin-right: 16px;
+            height: 20px;
+            width: 20px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+
+      }
+
+      .openstreetmap-visualization {
+        img {}
+      }
+    }
+  }
+}
+
+/*           Resposividade     Tablet         */
+@media (min-width: 768px) and (max-width: 1440px){
+  .sectionForms{
+    .sectionForms-content-block{
+      .sectionForms-content{
+        .form-content {
+          .sectionForms-title {
+            .title-p {
+              font-size: 20px;
+            }
+
+            h1 {
+              font-size: 44px;
+            }
+
+            .sub-title-p {
+              font-size: 18px;
+            }
+          }
+
+          .sectionForms-form {
+            input {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .sectionVisit-content {
+      .visit-content {
+        h1 {
+          font-size: 44px;
+        }
+        .location,
+        .telephone,
+        .email {
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*           Resposividade     lanscape         */
+
+@media screen and (orientation: landscape) and (max-width: 1440px) {
+  .sectionForms {
+    height: 150vh;
+  }
+ 
+}

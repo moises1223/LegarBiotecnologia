@@ -1,0 +1,89 @@
+@import url("nav.css");
+@import url("home.css");
+@import url("who.css");
+@import url("products.css");
+@import url("benproducts.css");
+@import url("blog.css");
+@import url("form.css");
+@import url("footer.css");
+@import url("loading.css");
+@import url("variaveis.css");
+
+/* * página produto */
+
+@import url("product-home.css");
+@import url("product-specs.css");
+@import url("product-use.css");
+@import url("product-others.css");
+
+
+/* * página blog */
+
+@import url("blog-home.css");
+@import url("blog-news.css");
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-style: none;
+  /* border: 1px solid red; */
+}
+
+.icon-logocircle {
+  height: 50px;
+  width: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+  
+}
+
+section {
+  /* padding: 0px 320px 0px 320px; */
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 320px;
+}
+
+/* Resonsividade celular */
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    /* Centraliza o conteúdo */
+    padding: 0 10px;
+    /* Espaçamento nas laterais */
+    max-width: calc(100% - 30px);
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 768px) and (max-width: 1440px) {
+  .container {
+    margin: 0 auto;
+    /* Centraliza o conteúdo */
+    padding: 0 10px;
+    /* Espaçamento nas laterais */
+    max-width: calc(100% - 30px);
+  }
+}

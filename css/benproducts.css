@@ -1,0 +1,240 @@
+@import url('variaveis.css');
+@import url('who.css');
+
+.sectionBenProdutos {
+    scroll-margin-top: calc(var(--h-header) + 4em);
+    background-image: url('../img/bgbenproducts.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .sectionBenProdutos-content {
+        position: relative;
+        top: 4.5rem;
+
+        .benproducts-h1 {
+            text-align: center;
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-size: 64px;
+                font-weight: bold;
+                color: var(--verdeEscuro);
+            }
+        }
+
+        .line {
+            display: inline-block;
+            justify-content: center;
+            width: 414px;
+            height: 4px;
+            border-radius: 5.5px;
+            background-color: var(--verdeClaro);
+            margin-top: 2.5rem;
+        }
+
+        .sectionBenProdutos-content-topics {
+            margin-top: 2rem;
+
+            .block-column-1,
+            .block-column-2 {
+
+                display: flex;
+                gap: 3rem;
+
+                .block {
+                    display: flex;
+                    margin-bottom: 2.5rem;
+                    margin-top: 2.5rem;
+                    width: 100%;
+                    transition: transform 0.5s, background-color 0.5s, color 0.5s;
+                    transform: scale(1);
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    .square {
+                        margin-right: 1rem;
+
+                        img {
+                            height: 48px;
+                            width: 48px;
+                        }
+                    }
+
+                    .topic-content {
+                        h1 {
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: var(--verdeClaro);
+                            margin-bottom: 1rem;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: var(--preto);
+                        }
+                    }
+                }
+
+            }
+
+            .btn-conhecer {
+                display: flex;
+                margin-top: 2.5rem;
+                justify-content: center;
+
+
+                .btn-benproducts-conhecer {
+                    height: 60px;
+                    width: 290px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    font-weight: 500;
+                    background-color: var(--verdeEscuro);
+                    color: var(--branco);
+                    cursor: pointer;
+                    transition: transform 0.5s, background-color 0.5s, color 0.5s;
+                    transform: scale(1);
+
+                    &:hover {
+                        transform: scale(1.05);
+                        color: var(--branco);
+                        color: var(--verdeEscuro);
+                        background-color: var(--branco);
+                        border: 1px solid var(--verdeEscuro);
+
+                    }
+                }
+
+            }
+
+            /* .square {
+                position: relative;
+                border-radius: 10px;
+                height: 40px;
+                width: 40px;
+                background-color: var(--verdeClaro);
+                margin-right: 1rem;
+                flex-shrink: 0;
+            } */
+
+        }
+    }
+}
+
+
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {
+    .sectionBenProdutos {
+        height: 180vh;
+        background-size: cover;
+
+        .sectionBenProdutos-content {
+            .benproducts-h1 {
+                h1 {
+                    font-size: 33px;
+                    line-height: 2rem;
+                }
+
+                .line {
+                    width: 240px;
+                }
+
+            }
+
+            .sectionBenProdutos-content-topics {
+
+
+                .block-column-1,
+                .block-column-2 {
+                    gap: 0;
+                    margin-bottom: 1rem;
+                    flex-direction: column;
+
+                    .block {
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+
+                        .square {
+                            img {
+                                height: 38px;
+                                width: 38px;
+                            }
+                        }
+
+                        .topic-content {
+                            h1 {
+                                font-size: 18px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+
+                .block-column-1 {
+                    margin-bottom: 0px;
+                }
+
+                .btn-conhecer {
+                    .btn-benproducts-conhecer {
+                        font-size: 14px;
+                        height: 50px;
+                        width: 190px;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*           Resposividade     Tablet         */
+@media (min-width: 768px) and (max-width: 1440px) {
+    .sectionBenProdutos {
+        .sectionBenProdutos-content {
+            .benproducts-h1 {
+                h1 {
+                    font-size: 44px;
+                }
+            }
+
+            .sectionBenProdutos-content-topics {
+
+                .block-column-1,
+                .block-column-2 {
+                    .block {
+
+
+                        .topic-content {
+
+                            h1 {
+                                font-size: 18px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    /*           Resposividade     lanscape         */
+
+    @media screen and (orientation: landscape) and (max-width: 1440px) {
+        .sectionBenProdutos {
+            height: 140vh;
+        }
+    }
+}

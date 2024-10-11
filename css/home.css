@@ -1,0 +1,237 @@
+@import url("variaveis.css");
+
+.sectionHome {
+  background-image: url("../img/headerBg2.png");
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.hero-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+
+  .hero-content {
+
+    .hero-title {
+      color: var(--branco);
+      font-size: 64px;
+      line-height: 4.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+
+      span {
+        color: var(--verdeClaro);
+      }
+    }
+
+    .sub-heading {
+      color: var(--branco);
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    .btn-link-conhecer {
+      button {
+        border: 1px solid var(--branco);
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        height: 79px;
+        width: 413px;
+        background-color: transparent;
+        color: var(--branco);
+        cursor: pointer;
+        transition: transform 0.5s, background-color 0.5s, color 0.5s;
+        transform: scale(1);
+        /* Define o tamanho padrão */
+
+        &:hover {
+          transform: scale(1.05);
+          /* Aumenta o botão em 10% no hover */
+          background-color: var(--verdeEscuro);
+          border: 1px solid var(--verdeEscuro);
+        }
+      }
+    }
+  }
+}
+
+.faixa-verde {
+  height: 174px;
+  width: 100%;
+  background-color: var(--verdeEscuro);
+
+  .faixa-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+
+    .faixa-items {
+      display: flex;
+      line-height: 1.5rem;
+      transition: 0.5s;
+      transition: transform 0.5s, background-color 0.5s, color 0.5s;
+      transform: scale(1);
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      img {
+        height: 77px;
+        width: 77px;
+      }
+
+      .faixa-items-text {
+        align-content: end;
+
+        p {
+          font-weight: 600;
+          font-size: 20px;
+          color: var(--branco);
+          margin-left: 1rem;
+          font-weight: 500;
+        }
+      }
+
+      /* fazer efeito pulse */
+    }
+  }
+}
+
+
+/*           Resposividade     Celular         */
+
+@media (max-width: 768px) {
+
+  .sectionHome {
+    background-size: cover;
+  }
+
+  .hero-section {
+    width: 80%;
+
+    .hero-content {
+      
+
+
+      .hero-title {
+        font-size: 33px;
+        line-height: 2.5rem;
+      }
+
+      .sub-heading {
+        font-size: 14px;
+        line-height: 1rem;
+        margin-bottom: 2rem;
+
+      }
+
+      .btn-link-conhecer {
+        button {
+          font-size: 14px;
+          height: 50px;
+          width: 190px;
+        }
+      }
+    }
+  }
+
+  .faixa-verde {
+    height: 100px;
+
+    .faixa-content {
+      .faixa-items {
+        img {
+          height: 29px;
+          width: 29px;
+        }
+
+        .faixa-items-text {
+          p {
+            margin-left: 10px;
+            font-size: 6px;
+            line-height: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/*           Resposividade     Tablet         */
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .hero-section {
+    width: 70%;
+
+
+    .hero-content {
+
+
+      .hero-title {
+        font-size: 52px;
+        line-height: 3.5rem;
+      }
+
+      .sub-heading {
+        font-size: 18px;
+      }
+
+      .btn-link-conhecer {
+        button {
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+  .faixa-verde {
+    height: 130px;
+
+    .faixa-content {
+      padding: 0px 100px;
+
+      .faixa-items {
+        img {
+          height: 50px;
+          width: 50px;
+
+        }
+
+        .faixa-items-text {
+          p {
+            margin-left: 10px;
+            font-size: 12px;
+            line-height: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*           Resposividade     lanscape         */
+
+@media screen and (orientation: landscape) and (max-width: 1400px) {
+  .sectionHome {
+    height: 100vh;
+    hero-content {
+      position: relative;
+      top: 140px;
+    }
+  }
+}
+

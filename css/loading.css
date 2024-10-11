@@ -1,0 +1,10 @@
+@import url("variaveis.css");
+
+.box-load {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  .pre-loading {
+    display: none;
+  }
+}
