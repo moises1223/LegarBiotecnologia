@@ -32,7 +32,14 @@
 }
 /*           Resposividade     Celular         */
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .home-blog {
+        height: 130vh;
+    }
+    .swiper-pagination{
+        display: none;
+    }
+}
 
 /*           Resposividade     Tablet         */
 @media (min-width: 769px) and (max-width: 1440px){}

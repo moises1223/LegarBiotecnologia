@@ -2,6 +2,7 @@ var swiper = new Swiper('.mySwiper', {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 3,
+    grabCursor: true,
     freeMode: true,
 });
 var swiper2 = new Swiper('.mySwiper2', {

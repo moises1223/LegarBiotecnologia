@@ -7,7 +7,13 @@
 .blog-news-content {
     position: relative;
     top: 4.5rem;
-    width: 50%;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+
+    .blog-text {
+        width: 40%;
+    }
 
     .update-time {
         margin-bottom: 1rem;
@@ -42,14 +48,86 @@
             }
         }
     }
+
+    .blog-other-news {
+        overflow-y: hidden;
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+
+        .blog-vertical-slide {
+            background-color: rgb(146, 138, 125);
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            box-sizing: border-box;
+
+            .swiper-container {
+                width: 100%;
+                height: 100%;
+                max-height: 620px;
+
+                .swiper-wrapper {
+                    width: 100%;
+
+                    .swiper-slide {
+                        background: #f1f1f1;
+                        padding: 20px;
+                        margin-bottom: 1px;
+                        box-sizing: border-box;
+                        display: flex;
+                        gap: 1rem;
+                        border-radius: 10px;
+
+
+
+                        img {
+                            width: 100%;
+                            height: 150px;
+                            object-fit: cover;
+                        }
+
+                        .slide-date {
+                            color: #007bff;
+                            font-size: 0.8em;
+                        }
+
+                        .slide-title {
+                            font-weight: bold;
+                            margin: 5px 0;
+                        }
+
+                        .slide-description {
+                            font-size: 0.9em;
+                        }
+
+                        .read-more {
+                            display: inline-block;
+                            margin-top: 10px;
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
+
 /*           Resposividade     Celular         */
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+    .blog-news {
+        height: 230vh;
+    }
+
+}
 
 /*           Resposividade     Tablet         */
-@media (min-width: 769px) and (max-width: 1440px){}
+@media (min-width: 768px) and (max-width: 1440px) {}
 
 /*           Resposividade     lanscape         */
 
-@media screen and (orientation: landscape) and (max-width: 1024px){}
+@media screen and (orientation: landscape) and (max-width: 1024px) {}

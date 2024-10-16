@@ -39,31 +39,23 @@
 
                 .swiper-slide {
                     text-align: center;
-                    width: 100%;
-
+                    width: 150vw;
                     img {
                         aspect-ratio: auto;
                         object-fit: cover;
-                        margin: 0px 20px;
                     }
                 }
             }
-
             .swiper-button-next::after,
             .swiper-button-prev::after {
                 font-size: 4rem !important;
             }
-
-
         }
 
-
         .thumbnail-slider {
-            width: 34rem;
 
             .swiper-wrapper {
                 cursor: pointer;
-
                 .swiper-slide {
                     background-color: var(--cinzaClaro);
                     width: 10rem !important;
@@ -215,6 +207,7 @@
                         display: flex;
                         gap: 1rem;
                         margin-bottom: 1rem;
+                        align-items: center;
 
                         .spec-img {
                             aspect-ratio: auto;
@@ -234,11 +227,11 @@
 }
 
 
+ /*           Resposividade     Smartphone         */
 
-
-@media (max-width:  778px) {
+@media (max-width:  768px) {
     .home-product {
-        height: 150vh;
+        height: 200vh;
 
         .home-product-content {
             display: flex;
@@ -304,34 +297,78 @@
                         }
                     }
                 }
+                .product-specs{
+                    .specs-items{
+                        .block1,.block2{
+                            .spec{
+                                .spec-name{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
         }
     }
 }
 
-@media (max-width: 415px) {
-    .main .swiper-slide img {
-        max-width: 35rem;
-        max-height: 35rem;
+ /*           Resposividade     Tablet         */
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .home-product {
+        height: 120vh;
+        .content-text {
+            .product-info{
+                .product-title{
+                    margin-bottom: -2rem;
+                    .title{
+                        font-size: 64px;
+                    }
+                    .sub-title{
+                        font-size: 24px;
+                    }
+                }
+                .product-description{
+                    .description{
+                        font-size: 12px;
+                        margin-bottom: 1rem;
+                    }
+                    .product-buttons{
+
+                        .btn-other-products{
+                            .button-text{
+                                font-size: 10px;
+                            }
+                            .arrow{
+                                font-size: 20px;
+                            }
+                        }
+                        .btn-budge{
+                            font-size: 10px;
+                            
+                        }
+                    }
+                }
+                .product-specs{
+                    .specs-items{
+                        .block1,.block2{
+                            .spec{
+                                .spec-name{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
     }
 
-    .main-image-container {
-        width: 90%;
-    }
-
-    .main-image-container .img {
-        text-align: center;
-    }
-
-    .main-image-container .img img {
-        width: 100%;
-    }
 }
 
-@media (max-width: 340px) {
-    .main-image-container .img img {
-        width: 100%;
-        object-fit: cover;
-    }
-}
+ /*           Resposividade     lanscape         */
+
+
