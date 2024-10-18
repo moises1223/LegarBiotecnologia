@@ -6,9 +6,22 @@ document.addEventListener('DOMContentLoaded', function () {
         spaceBetween: 2,
         grabCursor: true,
 
+
         autoplay: {
             delay: 5000,
-          },
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 2
+            },
+            768: {
+                slidesPerView: 3
+            },
+            1024: {
+                slidesPerView: 3
+            }
+        }
+
     },
-);
+    );
 });

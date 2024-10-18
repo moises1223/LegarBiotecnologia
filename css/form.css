@@ -115,7 +115,7 @@
     }
 
     .openstreetmap-visualization {
-      
+
       img {
         width: 100%;
         aspect-ratio: 16 /9;
@@ -126,7 +126,8 @@
   }
 
 }
-/*           Resposividade     Celular         */
+
+/*      *     Responsividade     Celular         */
 
 @media (max-width: 768px) {
   .sectionForms {
@@ -199,11 +200,18 @@
   }
 }
 
-/*           Resposividade     Tablet         */
-@media (min-width: 768px) and (max-width: 1440px){
-  .sectionForms{
-    .sectionForms-content-block{
-      .sectionForms-content{
+/*        *   Responsividade     Celular Landscape         */
+@media screen and (orientation: landscape) and (max-width: 768px) {
+  .sectionForms {
+    height: 450vh;
+  }
+}
+
+/*        *   Responsividade     Tablet         */
+@media (min-width: 768px) and (max-width: 1440px) {
+  .sectionForms {
+    .sectionForms-content-block {
+      .sectionForms-content {
         .form-content {
           .sectionForms-title {
             .title-p {
@@ -227,11 +235,13 @@
         }
       }
     }
+
     .sectionVisit-content {
       .visit-content {
         h1 {
           font-size: 44px;
         }
+
         .location,
         .telephone,
         .email {
@@ -244,11 +254,10 @@
   }
 }
 
-/*           Resposividade     lanscape         */
+/*        *   Responsividade     Landscape Tablet        */
 
-@media screen and (orientation: landscape) and (max-width: 1440px) {
+@media screen and (orientation: landscape)and (min-width: 768px) and (max-width: 1440px) {
   .sectionForms {
     height: 150vh;
   }
- 
 }

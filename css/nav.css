@@ -154,17 +154,9 @@
     }
     .links-container{
       .link{
-
         font-size: 12px;
       }
     }
-  }
-  .container {
-    margin: 0 auto;
-    /* Centraliza o conteúdo */
-    padding: 0 10px;
-    /* Espaçamento nas laterais */
-    max-width: calc(100% - 30px);
   }
 }
 

@@ -33,6 +33,7 @@
 
 }
 
+/*      *     Resposividade     Celular         */
 
 @media (max-width: 768px) {
 
@@ -55,6 +56,16 @@
         }
     }
 }
+
+/*       *    Resposividade     Landscape Celular         */
+
+@media screen and (orientation: landscape) and (max-width: 768px){
+    .other-products {
+        height: 230vh;
+    }
+}
+
+/*       *    Resposividade     Tablet         */
 
 @media (min-width: 768px) and (max-width: 1440px) {
     .other-products {

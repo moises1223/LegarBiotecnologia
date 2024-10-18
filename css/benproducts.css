@@ -126,7 +126,7 @@
 }
 
 
-/*           Resposividade     Celular         */
+/*      *     Resposividade     Celular                 */
 
 @media (max-width: 768px) {
     .sectionBenProdutos {
@@ -196,7 +196,16 @@
 
 }
 
-/*           Resposividade     Tablet         */
+/*      *     Resposividade     Celular Landscape         */
+
+@media screen and (orientation: landscape) and (max-width: 768px){
+    .sectionBenProdutos {
+        height: 260vh;
+    }
+}
+
+/*      *     Resposividade     Tablet         */
+
 @media (min-width: 768px) and (max-width: 1440px) {
     .sectionBenProdutos {
         .sectionBenProdutos-content {
@@ -230,11 +239,12 @@
         }
     }
 
-    /*           Resposividade     lanscape         */
+}
+/*      *     Resposividade  tablet   Landscape         */
 
-    @media screen and (orientation: landscape) and (max-width: 1440px) {
-        .sectionBenProdutos {
-            height: 140vh;
-        }
+@media screen and (orientation: landscape) and (min-width: 768px)  and (max-width: 1440px) {
+    
+    .sectionBenProdutos {
+        height: 140vh;
     }
 }

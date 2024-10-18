@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
-    
+
     .section-footer-content {
         position: relative;
         top: 5rem;
@@ -18,7 +18,7 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 4rem;
-            
+
 
             .block1 {
                 .block-content {
@@ -93,25 +93,28 @@
 
             .block3 {
                 .block-content {
-                    h1{
+                    h1 {
                         font-weight: 600;
                         font-size: 20px;
                         color: var(--branco);
                         margin-bottom: 1rem;
 
                     }
-                    p{
+
+                    p {
                         font-weight: 500;
                         font-size: 18px;
                         color: var(--branco);
                         margin-bottom: 2.5rem;
                     }
-                    .form{
+
+                    .form {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        .email{
-                            height:33px;
+
+                        .email {
+                            height: 33px;
                             width: 100%;
                             border: 1px;
                             padding: 10px;
@@ -119,31 +122,36 @@
                             background-color: var(--branco);
                             margin-bottom: 0.5rem;
                         }
-                        input::placeholder{
+
+                        input::placeholder {
                             color: var(--hoverBtn);
                         }
-                        a{
+
+                        a {
                             width: 100%;
-                            button{
+
+                            button {
                                 cursor: pointer;
                                 font-weight: 500;
                                 font-size: 15px;
                                 color: var(--branco);
-                                height:33px;
+                                height: 33px;
                                 width: 100%;
                                 border: 1px solid var(--verdeClaro2);
                                 border-radius: 10px;
                                 background-color: transparent;
                                 transition: transform 0.5s, background-color 0.5s, color 0.5s;
-                                transform: scale(1); /* Define o tamanho padrão */
+                                transform: scale(1);
+                                /* Define o tamanho padrão */
 
-                                &:hover{
+                                &:hover {
                                     color: var(--preto);
                                     background-color: var(--verdeClaro2);
-                                    transform: scale(1.1); /* Aumenta o botão em 10% no hover */
+                                    transform: scale(1.1);
+                                    /* Aumenta o botão em 10% no hover */
                                 }
                             }
-                            
+
                         }
                     }
                 }
@@ -152,13 +160,14 @@
         }
 
         .website-info {
-            
+
             display: flex;
             justify-content: center;
 
             p {
                 color: var(--branco);
-                a{
+
+                a {
                     color: var(--verdeClaro2);
                 }
             }
@@ -167,62 +176,73 @@
     }
 }
 
-/*           Resposividade     Celular         */
+/*    *       Responsividade     Celular         */
 
 @media (max-width: 768px) {
     .sec-footer {
-        height: 150vh;
-    
+        height: 200vh;
+
         .sectionfooter {
-          text-align: center;
-    
-          .section-footer-content {
-            .blocks {
-              display: flex;
-              flex-direction: column;
-    
-              .block1 {
-                .block-content {
-                  .brand-logo {}
-    
-                  p {}
-    
-                  .contact {
+            text-align: center;
+
+            .section-footer-content {
+                .blocks {
                     display: flex;
                     flex-direction: column;
-    
-                    p {}
-                  }
-    
-    
+
+                    .block1 {
+                        .block-content {
+                            .brand-logo {}
+
+                            p {}
+
+                            .contact {
+                                display: flex;
+                                flex-direction: column;
+
+                                p {}
+                            }
+
+
+                        }
+                    }
+
+                    .block2 {}
+
+                    .block3 {}
                 }
-              }
-    
-              .block2 {}
-    
-              .block3 {}
+
+                .website-info {
+                    text-align: center;
+                }
+
             }
-    
-            .website-info {
-              text-align: center;
-            }
-    
-          }
         }
-      }
-}
-
-/*           Resposividade     Tablet         */
-@media (min-width: 768px) and (max-width: 1440px){
-    
-}
-
-/*           Resposividade     lanscape         */
-
-
-@media screen and (orientation: landscape) and (max-width: 1440px) {
-    .sec-footer {
-      height: 70vh;
     }
-   
-  }
+}
+
+/*     *      Responsividade     Landscape     Celular    */
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+    .sec-footer {
+        height: 320vh;
+    }
+}
+
+/*     *      Responsividade     Tablet         */
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .sec-footer {
+        height: 280vh;
+    }
+}
+
+/*     *      Responsividade     Tablet  Landscape       */
+
+@media screen and (orientation: landscape) and (min-width: 768px)  and (max-width: 1440px){
+    .sec-footer {
+        height: 280vh;
+    }
+}
+
+

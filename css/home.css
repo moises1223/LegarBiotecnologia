@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   height: 100vh;
-  top: 0;
   width: 100%;
 
   .hero-content {
@@ -38,6 +37,7 @@
     }
 
     .btn-link-conhecer {
+
       button {
         border: 1px solid var(--branco);
         border-radius: 5px;
@@ -103,14 +103,13 @@
           font-weight: 500;
         }
       }
-
       /* fazer efeito pulse */
     }
   }
 }
 
 
-/*           Resposividade     Celular         */
+/*      *     Resposividade     Celular         */
 
 @media (max-width: 768px) {
 
@@ -170,7 +169,21 @@
 
 }
 
-/*           Resposividade     Tablet         */
+/*       *    Resposividade     Landscape Celular         */
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+
+  .sectionHome {
+    height: 160vh;
+    .hero-section {
+      position: relative;
+      top: 130px;
+    }
+  }
+  
+}
+
+/*       *    Resposividade     Tablet         */
 
 @media (min-width: 768px) and (max-width: 1440px) {
   .hero-section {
@@ -223,15 +236,9 @@
   }
 }
 
-/*           Resposividade     lanscape         */
+/*       *    Resposividade     landscape   Tablet      */
 
-@media screen and (orientation: landscape) and (max-width: 1400px) {
-  .sectionHome {
-    height: 100vh;
-    hero-content {
-      position: relative;
-      top: 140px;
-    }
-  }
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px)  {
+  
 }
 

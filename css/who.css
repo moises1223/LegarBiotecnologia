@@ -97,7 +97,7 @@
   }
 }
 
-/*           Resposividade     Celular         */
+/*      *     Resposividade     Celular         */
 
 @media (max-width: 768px) {
   .sectionwho {
@@ -156,13 +156,14 @@
       flex-direction: column;
       display: flex;
       align-items: center;
+
       .who-banner-numbers-text {
         align-items: center;
-        
+
         .number-block {
           display: flex;
           justify-content: center;
-          
+
 
           .count {
             font-size: 30px;
@@ -181,12 +182,21 @@
   }
 }
 
-/*           Resposividade     Tablet         */
+/*     *      Resposividade     Celular Landscape         */
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+  .sectionwho {
+    height: 390vh;
+  }
+}
+
+/*     *      Resposividade     Tablet         */
 
 @media (min-width: 768px) and (max-width: 1440px) {
-  .sectionwho{
+  .sectionwho {
     height: 150vh;
   }
+
   .who-content {
     flex-direction: column;
     text-align: center;
@@ -194,32 +204,37 @@
 
 
     .who-content-container-text {
-      h1{
+      h1 {
         font-size: 20px;
-        span{
-          font-size: 44px
 
+        span {
+          font-size: 44px
         }
       }
-      p{
+
+      p {
         width: 100%;
         font-size: 18px;
       }
 
     }
   }
+
   .who-banner-numbers {
     .who-banner-numbers-text {
       .number-block {
         display: flex;
-          justify-content: center;
+        justify-content: center;
+
         .count {
           font-size: 50px;
         }
+
         span {
           font-size: 30px;
         }
       }
+
       p {
         font-size: 18px;
       }
@@ -228,11 +243,11 @@
 
 }
 
-/*           Resposividade     lanscape         */
+/*    *       Resposividade   Tablet  Landscape         */
 
-@media screen and (orientation: landscape) and (max-width: 1440px) {
+@media screen and (orientation: landscape)  and (min-width: 768px)  and (max-width: 1440px) {
   .sectionwho {
     height: 200vh;
   }
- 
+
 }

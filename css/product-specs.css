@@ -52,6 +52,9 @@
     }
 }
 
+
+/*     *      Responsividade     Celular         */
+
 @media (max-width: 768px) {
     .specs-product {
         height: 200vh;
@@ -99,13 +102,22 @@
             }
         }
     }
-
+    
 }
 
-/*           Resposividade     Tablet         */
+/*     *      Responsividade     Tablet         */
+
+@media screen and (orientation: landscape) and (max-width: 768px){
+    .specs-product {
+        height: 400vh;
+    }
+}
+
+/*     *      Responsividade     Tablet         */
+
 @media (min-width: 768px) and (max-width: 1440px) {
     .specs-product {
-
+            
         .specs-product-content {
             .spec-title {
                 text-align: center;
@@ -120,3 +132,16 @@
 
 
 }
+
+/*     *      Responsividade     Landscape Tablet         */
+
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px)  {
+    .specs-product {
+        height: 120vh;
+    }
+}
+
+
+
+
+

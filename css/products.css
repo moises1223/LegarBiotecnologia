@@ -60,6 +60,7 @@
       .card-item {
         .card-link {
 
+
           height: 521px;
           user-select: none;
           display: block;
@@ -93,18 +94,18 @@
           }
 
           .img-product {
-            width: 100%; 
-            aspect-ratio: auto; 
+            width: 100%;
+            aspect-ratio: auto;
             border-radius: 15px;
             background-color: #d9d9d9;
             text-align: center;
-            overflow: hidden; 
-          
+            overflow: hidden;
+
             .card-img {
-              width: 100%; 
-              height: 100%; 
-              object-fit: cover; 
-              margin: 0; 
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              margin: 0;
             }
           }
 
@@ -141,7 +142,7 @@
               background: var(--verdeEscuro);
               color: var(--branco);
               transition: 0.4s ease;
-              
+
             }
           }
         }
@@ -150,11 +151,14 @@
   }
 }
 
-@media screen and (max-width:  768px) {
+/*      *     Resposividade     Celular         */
+
+@media screen and (max-width: 768px) {
 
   section {
     padding: 0px 20px 0px 20px;
   }
+
   .sectionProdutos {
     height: 120vh;
 
@@ -172,18 +176,21 @@
   .cards-container-carroussel {
     .card-wrapper {
       margin: 0 10px 25px;
-      .card-list{
-        .card-link{
-          .card-title{
-            font-size:24px ;
+
+      .card-list {
+        .card-link {
+          .card-title {
+            font-size: 24px;
           }
-          .block{
-            p{
+
+          .block {
+            p {
               font-size: 14px;
             }
           }
         }
       }
+
       .swiper-slide-button {
         display: none;
       }
@@ -193,12 +200,35 @@
     }
   }
 
-  
- 
+
+
 }
 
-/*           Resposividade     Tablet         */
-@media (min-width: 768px) and (max-width: 1440px){
+/*      *     Resposividade     Celular Landscape         */
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+  .sectionProdutos {
+    height: 270vh;
+  }
+
+  .cards-container-carroussel {
+    .card-wrapper {
+      .card-list {
+        .card-item {
+          display: flex;
+          justify-content: center;
+          .card-link {
+            width: 250px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*      *     Resposividade     Tablet              */
+
+@media (min-width: 768px) and (max-width: 1440px) {
   .sectionProdutos {
     height: 110vh;
 
@@ -211,15 +241,18 @@
         font-size: 44px;
       }
     }
-    .cards-container-carroussel{
-      .card-wrapper{
-        .card-list{
-          .card-link{
-            .card-title{
-              font-size:34px ;
+
+    .cards-container-carroussel {
+      .card-wrapper {
+        .card-list {
+          .card-link {
+            .card-title {
+
+              font-size: 34px;
             }
-            .block{
-              p{
+
+            .block {
+              p {
                 font-size: 18px;
               }
             }
@@ -231,9 +264,9 @@
 
 }
 
-/*           Resposividade     lanscape         */
+/*      *     Resposividade   Tablet  Landscape         */
 
-@media screen and (orientation: landscape) and (max-width: 1440px) {
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1440px) {
   .sectionProdutos {
     height: 140vh;
   }

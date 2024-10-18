@@ -51,8 +51,9 @@ const createFooter = () => {
                             <div class="block-content">
                                 <h1>Newsletter</h1>
                                 <p>Cadastre-se e fique por dentro <br>das novidades.</p>
-                                <form class="form" action="">
-                                    <input class="email" type="text" placeholder="Insira seu e-mail ">
+                                <form class="form" action="https://formspree.io/f/xgveepby" method="POST">
+                                    <input required class="email" name="email" placeholder="Insira seu e-mail ">
+
                                     <a href=""><button>INSCREVER</button></a>
                                 </form>
                             </div>
