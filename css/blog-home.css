@@ -30,9 +30,10 @@
         }
     }
 }
+
 /*      *     Responsividade     Celular                   */
 
-@media (max-width: 768px)and (orientation: portrait) {
+@media (max-width: 768px) and (orientation: portrait) {
     .home-blog {
         height: 130vh;
     }
@@ -44,16 +45,14 @@
 /*      *     Responsividade     Celular  lanscape             */
 
 @media screen and (orientation: landscape) and (max-width: 768px) {
-
     .home-blog {
         height: 200vh;
     }
-
 }
 
 /*       *    Responsividade     Tablet                   */
 
-@media (min-width: 768px) and (max-width: 1440px) and (orientation: portrait){
+@media (min-width: 768px) and (max-width: 1440px) {
     .home-blog {
         height: 90vh;
     }
@@ -63,7 +62,8 @@
 
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
     .home-blog {
-        height: 20vh ; 
+        height: 100vh ; 
     }
+    
 }
 

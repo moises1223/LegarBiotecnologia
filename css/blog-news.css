@@ -1,7 +1,7 @@
 @import url("variaveis.css");
 
 .blog-news {
-    height: 170vh;
+    height: 520vh;
 }
 
 .blog-news-content {
@@ -12,8 +12,13 @@
     gap: 2rem;
 
     .blog-text {
-
         width: 40%;
+        .news-title{
+            margin-bottom: 1rem;
+            h2{
+                
+            }
+        }
     }
 
     .update-time {
@@ -40,6 +45,7 @@
 
     .news-content-text {
 
+
         .text {
             font-size: 18px;
             font-weight: 500;
@@ -47,6 +53,7 @@
         }
 
         .bold {
+
             font-weight: 600;
         }
     }
@@ -64,6 +71,7 @@
             border-radius: 10px;
             width: 80%;
             box-sizing: border-box;
+            height: 100%;
 
             .swiper-container {
                 width: 100%;
@@ -123,7 +131,7 @@
 @media (max-width: 768px) {
 
     .blog-news {
-        height: 430vh;
+        height: 1250vh;
     }
 
     .blog-news-content {

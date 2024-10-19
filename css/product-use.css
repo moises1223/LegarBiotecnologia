@@ -6,6 +6,7 @@
     background-size: cover;
     background-attachment: fixed;
     /* efeito parallax */
+    height: 110vh;
 }
 
 .use-products-content {
@@ -21,7 +22,6 @@
             font-size: 64px;
             color: var(--branco);
             margin-bottom: 1rem;
-
         }
 
         .sub-title {
@@ -53,6 +53,13 @@
                     aspect-ratio: auto;
                     object-fit: cover;
                 }
+            }
+            .title{
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                color: var(--branco);
+                margin-bottom: 1rem;
             }
 
             .img-description {
@@ -99,7 +106,7 @@
 
 
     .use-products {
-        height: 110vh;
+        height: 140vh;
     }
 
     .use-products-content {
@@ -125,13 +132,12 @@
             flex-direction: column;
 
             .galery-content {
-                display: flex;
-                align-items: center;
+                    
 
                 .image-galery {
-                    margin-bottom: 0px;
+                    margin-bottom: 1rem;
                     margin-right: 1rem;
-                    width: 25%;
+                    width: 100%;
                     height: 50px;
 
                 }
@@ -163,11 +169,11 @@
 
 }
 
-/*     *      Resposividade     Celular         */
+/*     *      Resposividade   Landscape  Celular         */
 
 @media screen and (orientation: landscape) and (max-width: 768px) {
     .use-products {
-        height: 180vh;
+        height: 240vh;
     }
 }
 

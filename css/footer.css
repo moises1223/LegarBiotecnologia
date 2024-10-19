@@ -233,7 +233,7 @@
 
 @media (min-width: 768px) and (max-width: 1440px) {
     .sec-footer {
-        height: 280vh;
+        height: 50vh;
     }
 }
 
@@ -241,7 +241,7 @@
 
 @media screen and (orientation: landscape) and (min-width: 768px)  and (max-width: 1440px){
     .sec-footer {
-        height: 280vh;
+        height: 80vh;
     }
 }
 
