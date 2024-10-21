@@ -245,9 +245,18 @@
 
 /*    *       Resposividade   Tablet  Landscape         */
 
-@media screen and (orientation: landscape)  and (min-width: 768px)  and (max-width: 1440px) {
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
   .sectionwho {
     height: 200vh;
   }
 
 }
+
+/*       *    Resposividade     notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .sectionwho{
+    height: 230vh;
+  }
+}
+

@@ -240,3 +240,11 @@
         height: 100vh;
     }
 }
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .use-products {
+        height: 150vh;
+    }
+}
+

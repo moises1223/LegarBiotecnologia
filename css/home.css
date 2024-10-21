@@ -3,18 +3,17 @@
 .sectionHome {
   background-image: url("../img/headerBg2.png");
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .hero-section {
+  align-items: center;
   position: absolute;
   display: flex;
-  align-items: center;
   height: 100vh;
   width: 100%;
 
   .hero-content {
-
     .hero-title {
       color: var(--branco);
       font-size: 64px;
@@ -25,6 +24,7 @@
       span {
         color: var(--verdeClaro);
       }
+
     }
 
     .sub-heading {
@@ -59,6 +59,7 @@
           border: 1px solid var(--verdeEscuro);
         }
       }
+
     }
   }
 }
@@ -103,6 +104,7 @@
           font-weight: 500;
         }
       }
+
       /* fazer efeito pulse */
     }
   }
@@ -121,7 +123,7 @@
     width: 80%;
 
     .hero-content {
-      
+
 
 
       .hero-title {
@@ -175,15 +177,17 @@
 
   .sectionHome {
     height: 160vh;
+
     .hero-section {
       position: relative;
       top: 130px;
     }
   }
-  
+
 }
 
 /*       *    Resposividade     Tablet         */
+
 
 @media (min-width: 768px) and (max-width: 1440px) {
   .hero-section {
@@ -238,7 +242,17 @@
 
 /*       *    Resposividade     landscape   Tablet      */
 
-@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px)  {
-  
-}
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {}
 
+/*       *    Resposividade     notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .sectionHome {
+    height: 140vh;
+    
+    .hero-section {
+      position: relative;
+      top: 100px;
+    }
+  }
+}

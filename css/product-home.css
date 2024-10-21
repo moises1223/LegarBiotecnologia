@@ -394,5 +394,16 @@
 
 /*    *       Resposividade     Tablet lanscape         */
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
-    
+    .home-product {
+        height: 120vh;
+    }
 }
+
+/*      *     Resposividade   notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .home-product {
+        height: 160vh;
+    }
+}
+

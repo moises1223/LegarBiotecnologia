@@ -261,3 +261,11 @@
     height: 150vh;
   }
 }
+
+/*      *     Resposividade   notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .sectionForms {
+    height: 160vh;
+  }
+}

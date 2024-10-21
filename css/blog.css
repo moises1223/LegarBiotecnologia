@@ -250,12 +250,22 @@
         }
     }
 
-    /*           Responsividade     Landscape Tablet         */
+    
+    
+}
 
+/*     *      Responsividade     Landscape Tablet         */
 
-    @media screen and (orientation: landscape)and (min-width: 768px)   and (max-width: 1440px) {
-        .sectionBlog {
-            height: 150vh;
-        }
+@media screen and (orientation: landscape)and (min-width: 768px)   and (max-width: 1440px) {
+    .sectionBlog {
+        height: 150vh;
+    }
+}
+
+/*      *     Resposividade   notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .sectionBlog {
+        height: 160vh;
     }
 }

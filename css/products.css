@@ -217,6 +217,7 @@
         .card-item {
           display: flex;
           justify-content: center;
+
           .card-link {
             width: 250px;
           }
@@ -264,10 +265,19 @@
 
 }
 
+
 /*      *     Resposividade   Tablet  Landscape         */
 
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1440px) {
   .sectionProdutos {
     height: 140vh;
+  }
+}
+
+/*      *     Resposividade   notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .sectionProdutos {
+    height: 160vh;
   }
 }

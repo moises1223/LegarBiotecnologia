@@ -3,7 +3,7 @@
 .home-blog {
     background-image: url('../img/bg-blog-home.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     height: 70vh;
 }
 

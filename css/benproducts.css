@@ -248,3 +248,13 @@
         height: 140vh;
     }
 }
+
+/*      *     Resposividade   notebook         */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .sectionBenProdutos {
+        height: 150vh;
+    }
+}
+
+

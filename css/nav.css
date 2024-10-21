@@ -18,8 +18,8 @@
   /* Cor de fundo transparente */
   /* Aplica o efeito de blur ao fundo */
   /* Para compatibilidade com WebKit (Safari) */
-  a{
-    .brand-logo{
+  a {
+    .brand-logo {
       height: 100%;
       width: 184px;
       margin-right: 50px;
@@ -52,10 +52,8 @@
 .nav-items {
   .links-container {
     display: flex;
+    
     gap: 4rem;
-
-
-
     .link {
       font-weight: 600;
       font-size: 18px;
@@ -83,7 +81,7 @@
     padding: 30px 20px;
 
     a {
-      .brand-logo{
+      .brand-logo {
 
         width: 94px;
       }
@@ -147,19 +145,26 @@
 @media (min-width: 768px) and (max-width: 1440px) {
   .navbar {
     padding: 20px 90px;
-    a{
-      .brand-logo{
+
+    a {
+      .brand-logo {
         width: 100px;
       }
     }
-    .links-container{
-      .link{
+
+    .links-container {
+      .link {
         font-size: 12px;
+      }
+    }
+
+    .nav-items {
+
+      .links-container {
+        gap: 2rem;
       }
     }
   }
 }
-
 /*           Resposividade     lanscape         */
-
-@media screen and (orientation: landscape) and (max-width: 1024px){}
+@media screen and (orientation: landscape) and (max-width: 1024px) {}
