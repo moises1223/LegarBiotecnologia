@@ -5,7 +5,7 @@
     <ul class="swiper-wrapper card-list ">
 
                         <li class="card-item swiper-slide">
-                            <a href="/Public_html/produtos.html" class="card-link">
+                            <a href="/produtos.html" class="card-link">
                                 <div class="img-product">
                                     <img src="img/produto.png" class="card-img" alt="Card Image" >
                                 </div>
@@ -19,7 +19,7 @@
                         </li>
 
                         <li class="card-item swiper-slide">
-                            <a href="/Public_html/produtos.html" class="card-link">
+                            <a href="/produtos.html" class="card-link">
                                 <div class="img-product">
                                     <img src="img/produto.png" class="card-img" alt="Card Image" >
                                 </div>
@@ -33,7 +33,7 @@
                         </li>
 
                         <li class="card-item swiper-slide">
-                            <a href="/Public_html//produtos.html" class="card-link">
+                            <a href="/produtos.html" class="card-link">
                                 <div class="img-product">
                                     <img src="img/produto.png" class="card-img" alt="Card Image" >
                                 </div>
@@ -47,7 +47,7 @@
                         </li>
 
                         <li class="card-item swiper-slide">
-                            <a href="/Public_html//produtos.html" class="card-link">
+                            <a href="/produtos.html" class="card-link">
                                 <div class="img-product">
                                     <img src="img/produto.png" class="card-img" alt="Card Image" >
                                 </div>
@@ -61,7 +61,7 @@
                         </li>
 
                         <li class="card-item swiper-slide">
-                            <a href="/Public_html//produtos.html" class="card-link">
+                            <a href="/produtos.html" class="card-link">
                                 <div class="img-product">
                                     <img src="img/produto.png" class="card-img" alt="Card Image" >
                                 </div>
