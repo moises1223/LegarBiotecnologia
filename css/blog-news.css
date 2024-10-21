@@ -13,11 +13,11 @@
 
     .blog-text {
         width: 40%;
-        .news-title{
+
+        .news-title {
             margin-bottom: 1rem;
-            h2{
-                
-            }
+
+            h2 {}
         }
     }
 
@@ -126,12 +126,10 @@
 
 }
 
-/*     *      Responsividade     Celular               */
 
-@media (max-width: 768px) {
-
+@media (max-width:320px) {
     .blog-news {
-        height: 1250vh;
+        height: 1900vh;
     }
 
     .blog-news-content {
@@ -142,7 +140,35 @@
 
             .news-banner {
                 img {
-                    width: 300px;
+                    width: 200px;
+                }
+            }
+        }
+
+        .blog-other-news {
+            display: none;
+        }
+    }
+}
+
+/*     *      Responsividade     Celular               */
+
+
+@media (min-width: 330px) and (max-width: 768px) {
+
+    .blog-news {
+        height: 1100vh;
+    }
+
+    .blog-news-content {
+        flex-direction: column;
+
+        .blog-text {
+            width: 100%;
+
+            .news-banner {
+                img {
+                    width: 200px;
                 }
             }
         }
@@ -158,7 +184,7 @@
 @media screen and (orientation: landscape) and (max-width: 768px) {
 
     .blog-news {
-        height: 400vh;
+        height: 1400vh;
     }
 
     .blog-news-content {
@@ -170,9 +196,9 @@
 
 /*     *      Responsividade     Tablet                  */
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1440px) {
     .blog-news {
-        height: 230vh;
+        height: 510vh;
     }
 
     .blog-news-content {
@@ -183,14 +209,8 @@
 
             .news-banner {
                 text-align: center;
-
-                img {
-                    width: 600px;
-                }
             }
         }
-
-        .blog-other-news {}
     }
 }
 
@@ -205,25 +225,8 @@
 
 /*     *     Responsividade     Notebook                */
 
-@media (min-width: 1200px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
     .blog-news {
-        height: 260vh;
-    }
-
-    .blog-news-content {
-        flex-direction: row;
-
-        .blog-text {
-            width: 100%;
-
-            .news-banner {
-                text-align: center;
-
-                img {
-                    width: 600px;
-                }
-            }
-        }
+        height: 850vh;
     }
 }
-

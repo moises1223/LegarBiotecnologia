@@ -228,7 +228,7 @@
 @media (max-width: 768px) {
 
     .home-product {
-        height: 210vh;
+        height: 220vh;
 
         .home-product-content {
             display: flex;
@@ -268,7 +268,7 @@
                     margin-bottom: -2rem;
 
                     .title {
-                        font-size: 64px;
+                        font-size: 44px;
                         margin-bottom: 1rem;
                     }
 
@@ -278,6 +278,7 @@
                 }
 
                 .product-description {
+                    width: 100%;
                     .description {
                         font-size: 12px;
                         margin-bottom: 1rem;
@@ -296,6 +297,7 @@
                         }
 
                         .btn-budge {
+                            
                             font-size: 10px;
 
                         }
@@ -304,7 +306,7 @@
 
                 .product-specs {
                     .specs-items {
-                        gap: 2rem;
+                        gap: 1rem;
                         .block1,
                         .block2 {
                             .spec {
@@ -331,7 +333,7 @@
 
 @media (min-width: 768px) and (max-width: 1440px) {
     .home-product {
-        height: 120vh;
+        height: 110vh;
 
         .content-text {
             .product-info {

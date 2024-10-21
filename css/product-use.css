@@ -106,7 +106,7 @@
 
 
     .use-products {
-        height: 140vh;
+        height: 150vh;
     }
 
     .use-products-content {
@@ -182,7 +182,7 @@
 @media (min-width: 768px) and (max-width: 1440px) {
 
     .use-products {
-        height: 70vh;
+        height: 80vh;
     }
    
 
