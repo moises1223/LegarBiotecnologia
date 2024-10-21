@@ -22,7 +22,7 @@ const createFooter = () => {
                                     <a href="">
                                         <img src="img/instagram-icon.png" alt="">
                                     </a>
-                                    <a href="">
+                                    <a href="https://api.whatsapp.com/send?phone=5596604816">
                                         <img src="img/whatsapp-icon.png" alt="">
                                     </a>
                                 </div>

@@ -5,13 +5,12 @@ const createNav = () =>{
      <a href="/public_html/#sectionHome"><img class="brand-logo" src="img/logo.png" alt=""></a>
                     <div class="nav-items">
                         <ul class="links-container">
-                            <li class="link-item"> <a href="/public_html/#sectionHome" class="link">Home</a></li>
-                            <li class="link-item"> <a href="/public_html/#sectionwho" class="link">Quem somos</a></li>
-                            <li class="link-item"> <a href="/public_html/#sectionProdutos" class="link">Produtos</a></li>
-                            <li class="link-item"> <a href="/public_html/#sectionBenProdutos" class="link">Benefícios</a>
-                            </li>
-                            <li class="link-item"> <a href="/public_html/#sectionBlog" class="link">Blog</a></li>
-                            <li class="link-item"> <a href="/public_html/#sectionForms" class="link">Contato</a></li>
+                            <li class="link-item"> <a href="/#sectionHome" class="link">Home</a></li>
+                            <li class="link-item"> <a href="/#sectionwho" class="link">Quem somos</a></li>
+                            <li class="link-item"> <a href="/#sectionProdutos" class="link">Produtos</a></li>
+                            <li class="link-item"> <a href="/#sectionBenProdutos" class="link">Benefícios</a></li>
+                            <li class="link-item"> <a href="/#sectionBlog" class="link">Blog</a></li>
+                            <li class="link-item"> <a href="/#sectionForms" class="link">Contato</a></li>
                         </ul>
 
                         <div class="menu">
