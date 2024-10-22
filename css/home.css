@@ -253,6 +253,7 @@
     .hero-section {
       position: relative;
       top: 100px;
+      width: 70%;
     }
   }
 }

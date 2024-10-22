@@ -1,7 +1,9 @@
 @import url("variaveis.css");
 
 .blog-news {
-    height: 520vh;
+    height: 100%;
+    margin-bottom: 10rem;
+    /* height: 520vh; */
 }
 
 .blog-news-content {
@@ -129,7 +131,9 @@
 
 @media (max-width:320px) {
     .blog-news {
-        height: 1900vh;
+        /* height: 1900vh; */
+        height: 100%;
+    /* margin-bottom: 10rem; */
     }
 
     .blog-news-content {
@@ -157,7 +161,8 @@
 @media (min-width: 330px) and (max-width: 768px) {
 
     .blog-news {
-        height: 1100vh;
+        /* height: 1100vh; */
+        height: 100%;
     }
 
     .blog-news-content {
@@ -184,7 +189,8 @@
 @media screen and (orientation: landscape) and (max-width: 768px) {
 
     .blog-news {
-        height: 1400vh;
+        /* height: 1400vh; */
+        height: 100%;
     }
 
     .blog-news-content {
@@ -198,7 +204,8 @@
 
 @media (min-width: 768px) and (max-width: 1440px) {
     .blog-news {
-        height: 510vh;
+        /* height: 510vh; */
+        height: 100%;
     }
 
     .blog-news-content {
@@ -219,7 +226,8 @@
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
 
     .blog-news {
-        height: 310vh;
+        /* height: 310vh; */
+        height: 100%;
     }
 }
 
@@ -227,6 +235,7 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     .blog-news {
-        height: 850vh;
+        /* height: 850vh; */
+        height: 100%;
     }
 }

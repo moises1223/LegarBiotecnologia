@@ -41,7 +41,7 @@ body{
 
 @media (max-width: 768px) and (orientation: portrait) {
     .home-blog {
-        height: 70vh;
+        height: 100%;
     }
     .swiper-container{
         .swiper-wrapper{
@@ -63,7 +63,9 @@ body{
 @media screen and (orientation: landscape) and (max-width: 768px) {
     .home-blog {
         height: 200vh;
+
     }
+    
 }
 
 /*       *    Responsividade     Tablet                   */
@@ -71,6 +73,16 @@ body{
 @media (min-width: 768px) and (max-width: 1440px) {
     .home-blog {
         height: 90vh;
+
+    }
+    .swiper-container{
+        .swiper-wrapper{
+            .swiper-slide{
+                img{
+                    height: 500px;
+                }
+            }
+        }
     }
 }
 
@@ -79,6 +91,7 @@ body{
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
     .home-blog {
         height: 100vh;
+
     }
 
 }
@@ -89,6 +102,7 @@ body{
 
     .home-blog {
         height: 130vh;
+        
     }
 
 }
