@@ -132,6 +132,7 @@
     .sectionBenProdutos {
         height: 180vh;
         background-size: cover;
+        background-position: center;
 
         .sectionBenProdutos-content {
             .benproducts-h1 {
