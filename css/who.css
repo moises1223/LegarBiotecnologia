@@ -60,8 +60,6 @@
       }
     }
   }
-
-
   .who-content-container-img {
     img {}
   }
@@ -81,6 +79,7 @@
 
     .number-block {
       display: flex;
+      justify-content: center;
 
       span {
         font-weight: bold;
