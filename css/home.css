@@ -188,15 +188,10 @@
 
 /*       *    Resposividade     Tablet         */
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-section {
     width: 70%;
-
-
     .hero-content {
-
-
       .hero-title {
         font-size: 52px;
         line-height: 3.5rem;
@@ -249,7 +244,6 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
   .sectionHome {
     height: 140vh;
-    
     .hero-section {
       position: relative;
       top: 100px;
