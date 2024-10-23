@@ -2,13 +2,13 @@
 
 .sectionBlog {
     scroll-margin-top: calc(var(--h-header) + 0em);
-    height: 120vh;
     background-image: url('../img/bgblog.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sectionBlog-content {
+    height: 100%;
     position: relative;
     top: 4.5rem;
 

@@ -4,13 +4,14 @@
   background-image: url("../img/headerBg2.png");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .hero-section {
   align-items: center;
   position: absolute;
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   .hero-content {
@@ -110,13 +111,21 @@
   }
 }
 
+/*      *     Resposividade     Small Celular         */
+
+/* @media (max-width:320px) {
+  .sectionHome {
+
+  }
+
+} */
 
 /*      *     Resposividade     Celular         */
 
-@media (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px ) {
 
   .sectionHome {
-    background-size: cover;
+
   }
 
   .hero-section {

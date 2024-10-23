@@ -6,11 +6,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh;
+    
+    
 }
 
 .home-product-content {
     display: flex;
     gap: 2rem;
+
 }
 
 .bgthumbs {

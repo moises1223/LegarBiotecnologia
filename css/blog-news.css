@@ -42,30 +42,25 @@
             aspect-ratio: auto;
             object-fit: cover;
         }
-
     }
 
     .news-content-text {
-
-
         .text {
+            text-align: justify;
             font-size: 18px;
             font-weight: 500;
             color: var(--preto);
         }
-
         .bold {
-
             font-weight: 600;
         }
     }
-
     .blog-other-news {
         /* overflow-y: hidden; */
-        width: 100%;
+        justify-content: center;
         max-width: 800px;
         display: flex;
-        justify-content: center;
+        width: 100%;
 
         .blog-vertical-slide {
             background-color: rgb(146, 138, 125);

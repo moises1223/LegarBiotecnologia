@@ -2,56 +2,58 @@
 
 .specs-product {
     background-color: var(--cinzaClaro);
+}
 
-    .specs-product-content {
-        position: relative;
-        top: 6.5rem;
+.specs-product-content {
+    height: 100%;
+    position: relative;
+    top: 6.5rem;
 
-        .spec-title {
-            text-align: center;
-            margin-bottom: 6.5rem;
+    .spec-title {
+        text-align: center;
+        margin-bottom: 6.5rem;
 
-            h2 {
-                font-size: 64px;
-                font-weight: 700;
-                color: var(--verdeEscuro);
-            }
+        h2 {
+            font-size: 64px;
+            font-weight: 700;
+            color: var(--verdeEscuro);
         }
+    }
 
-        .specs-cards {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            gap: 1rem;
+    .specs-cards {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
 
-            .block1,
-            .block2 {
-                .block {
+        .block1,
+        .block2 {
+            .block {
 
-                    align-content: center;
-                    background-color: var(--branco);
-                    border-radius: 20px;
-                    padding: 18px 40px;
+                align-content: center;
+                background-color: var(--branco);
+                border-radius: 20px;
+                padding: 18px 40px;
+                margin-bottom: 1rem;
+                height: 159px;
+
+                h2 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: var(--verdeClaro);
                     margin-bottom: 1rem;
-                    height: 159px;
+                }
 
-                    h2 {
-                        font-size: 20px;
-                        font-weight: 600;
-                        color: var(--verdeClaro);
-                        margin-bottom: 1rem;
-                    }
-
-                    p {
-                        font-size: 18px;
-                        font-weight: 500;
-                        color: var(--preto);
-                    }
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: var(--preto);
                 }
             }
         }
     }
 }
+
 
 
 /*     *      Responsividade     Celular         */

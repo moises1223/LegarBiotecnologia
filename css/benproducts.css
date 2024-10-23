@@ -6,6 +6,8 @@
     background-image: url('../img/bgbenproducts.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    margin-bottom: 15rem;
 
     .sectionBenProdutos-content {
         position: relative;
@@ -70,7 +72,7 @@
                             color: var(--verdeClaro);
                             margin-bottom: 1rem;
                         }
-
+                        
                         p {
                             font-size: 18px;
                             font-weight: 500;
@@ -110,17 +112,6 @@
                 }
 
             }
-
-            /* .square {
-                position: relative;
-                border-radius: 10px;
-                height: 40px;
-                width: 40px;
-                background-color: var(--verdeClaro);
-                margin-right: 1rem;
-                flex-shrink: 0;
-            } */
-
         }
     }
 }

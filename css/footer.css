@@ -19,7 +19,6 @@
             justify-content: space-between;
             margin-bottom: 4rem;
 
-
             .block1 {
                 .block-content {
                     img {
@@ -47,7 +46,6 @@
 
                             margin-right: 1rem;
                         }
-
                     }
 
                     .social-icons {
@@ -239,10 +237,8 @@
 
 /*     *      Responsividade     Tablet  Landscape       */
 
-@media screen and (orientation: landscape) and (min-width: 768px)  and (max-width: 1440px){
+@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1440px) {
     .sec-footer {
         height: 80vh;
     }
 }
-
-
