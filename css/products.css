@@ -278,6 +278,7 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .sectionProdutos {
-    height: 160vh;
+    
+    /* height: 160vh; */
   }
 }
