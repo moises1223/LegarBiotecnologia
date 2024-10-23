@@ -121,7 +121,7 @@
 
 @media (max-width: 768px) {
     .sectionBenProdutos {
-        height: 180vh;
+        /* height: 180vh; */
         background-size: cover;
         background-position: center;
 
@@ -192,7 +192,7 @@
 
 @media screen and (orientation: landscape) and (max-width: 768px){
     .sectionBenProdutos {
-        height: 260vh;
+        /* height: 260vh; */
     }
 }
 
@@ -237,7 +237,7 @@
 @media screen and (orientation: landscape) and (min-width: 768px)  and (max-width: 1440px) {
     
     .sectionBenProdutos {
-        height: 140vh;
+        /* height: 140vh; */
     }
 }
 
@@ -245,7 +245,7 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     .sectionBenProdutos {
-        height: 150vh;
+        /* height: 150vh; */
     }
 }
 

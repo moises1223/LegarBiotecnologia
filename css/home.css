@@ -125,15 +125,14 @@
 @media (min-width: 0px) and (max-width: 768px ) {
 
   .sectionHome {
-
+    height: 145vh;
   }
-
   .hero-section {
-    width: 80%;
+    position: relative;
 
+    width: 90%;
+    
     .hero-content {
-
-
 
       .hero-title {
         font-size: 33px;
@@ -185,12 +184,7 @@
 @media screen and (orientation: landscape) and (max-width: 768px) {
 
   .sectionHome {
-    height: 160vh;
-
-    .hero-section {
-      position: relative;
-      top: 130px;
-    }
+    height: 200vh;
   }
 
 }
@@ -251,12 +245,12 @@
 /*       *    Resposividade     notebook         */
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .sectionHome {
+  /* .sectionHome {
     height: 140vh;
     .hero-section {
       position: relative;
       top: 100px;
       width: 70%;
     }
-  }
+  } */
 }

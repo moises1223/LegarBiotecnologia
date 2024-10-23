@@ -101,7 +101,7 @@
 @media (max-width: 768px) {
   .sectionwho {
 
-    height: 180vh;
+    /* height: 180vh; */
     background-size: cover;
 
     .who-content {
@@ -193,7 +193,7 @@
 
 @media (min-width: 768px) and (max-width: 1440px) {
   .sectionwho {
-    height: 150vh;
+    /* height: 150vh; */
   }
 
   .who-content {
@@ -246,7 +246,7 @@
 
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
   .sectionwho {
-    height: 200vh;
+    /* height: 200vh; */
   }
 
 }
@@ -255,7 +255,7 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .sectionwho{
-    height: 230vh;
+    /* height: 230vh; */
   }
 }
 
