@@ -26,6 +26,46 @@ function findProduct(productId) {
                 "img/produto.png"
             ]
         },
+        {
+            id: 2,
+            name: "Produto 2",
+            image: "img/produto.png",
+            subtitle: "Subtítulo do produto 2",
+            description: "Descrição detalhada do produto 2",
+            specifications: {
+                cor: "Azul",
+                tamanho: "M",
+                material: "Algodão"
+            },
+            // Array de imagens para o carrossel
+            images: [
+                "img/produto.png",
+                "img/produto.png",
+                "img/produto.png",
+                "img/produto.png",
+                "img/produto.png"
+            ]
+        },
+        {
+            id: 3,
+            name: "Produto 3",
+            image: "img/produto.png",
+            subtitle: "Subtítulo do produto 3",
+            description: "Descrição detalhada do produto 3",
+            specifications: {
+                cor: "Azul",
+                tamanho: "M",
+                material: "Algodão"
+            },
+            // Array de imagens para o carrossel
+            images: [
+                "img/produto.png",
+                "img/produto.png",
+                "img/produto.png",
+                "img/produto.png",
+                "img/produto.png"
+            ]
+        },
         // ... outros produtos
     ];
     return products.find(product => product.id === parseInt(productId));
