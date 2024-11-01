@@ -2,9 +2,13 @@
   "routes": [
     {
       "src": "/(.*)",
+      "dest": "/$1",
+      "status": 200
+    },
+    {
+      "src": "/(.*)",
       "dest": "public_html/not_found.html",
       "status": 404
     }
-  ],
-  "fallback": "public_html/not_found.html"
+  ]
 }
