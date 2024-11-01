@@ -65,7 +65,7 @@ function findProduct(productId) {
                 "img/produto.png",
                 "img/produto.png"
             ]
-        },
+        }
         // ... outros produtos
     ];
     return products.find(product => product.id === parseInt(productId));
