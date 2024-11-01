@@ -1,9 +1,10 @@
 {
     "routes": [
-      
+      {
+        "handle": "filesystem"
+      },
       {
         "src": "/(.*)",
-        "dest": "/Public_html/not_found.html",
         "status": 404
       }
     ],
