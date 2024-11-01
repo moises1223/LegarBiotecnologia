@@ -5,7 +5,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "/not_found.html",
+        "dest": "/Public_html/not_found.html",
         "status": 404
       }
     ],
