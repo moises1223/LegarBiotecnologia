@@ -7,7 +7,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "public_html/not_found.html",
+      "dest": "/public_html/not_found.html",
       "status": 404
     }
   ]
