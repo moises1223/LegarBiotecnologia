@@ -11,7 +11,9 @@
     nossa contribuição.">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
     <link rel="stylesheet" href="css/main.css">
+
     <link class="icon-logocircle" rel="icon" type="image/png" href="img/logocircle.png">
     <!-- linking swiperJS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -138,21 +140,25 @@
     </section>
 
     <section id="sectionProdutos" class="sectionProdutos">
-
         <div class="sectionprodutoscontent container">
-
             <div class="section-content ">
                 <p class="leftToRight">CONFIRA NOSSOS</p>
                 <h1 class="leftToRight">PRODUTOS</h1>
             </div>
-            <div class="product-carroussel cards-container-carroussel swiper">
+
+            <div class="swiper product-carroussel cards-container-carroussel ">
                 <div class="card-wrapper">
-                    <script src="js/carroussel.js"></script>
+
+                    <ul class="swiper-wrapper card-list swiper-products">
+                        <script src="js/indexProducts.js"></script>
+                    </ul>
+                
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
     <section id="sectionBenProdutos" class="sectionBenProdutos">
@@ -367,16 +373,17 @@
                         <div class="telephone">
                             <img src="img/telefone 1.png" alt="telefone">
                             <p class="leftToRight">+55 55 9 6604-8160</p>
-
                         </div>
                         <div class="email">
                             <img src="img/e-mail 1.png" alt="e-mail">
                             <p class="leftToRight">contato.legar@legarmais.com</p>
                         </div>
                     </div>
+
                     <div class="openstreetmap-visualization">
                         <img src="img/maps.png" alt="maps">
                     </div>
+
                 </div>
 
             </div>

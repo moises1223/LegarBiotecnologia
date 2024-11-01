@@ -2,7 +2,7 @@
     let product = document.querySelector('.card-wrapper');
 
     product.innerHTML=`
-    <ul class="swiper-wrapper card-list ">
+                    <ul class="swiper-wrapper card-list ">
 
                         <li class="card-item swiper-slide">
                             <a href="/produtos.html" class="card-link">
@@ -74,12 +74,7 @@
                             </a>
                         </li>
                         
-                    </ul>
-
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-slide-button swiper-button-prev"></div>
-                    <div class="swiper-slide-button swiper-button-next"></div>
-                   
+                    </ul>                   
                    `;
 }
 

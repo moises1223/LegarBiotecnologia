@@ -1,0 +1,128 @@
+@import url("variaveis.css");
+
+.HomeNotfound {
+    height: 100%;
+
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+
+    .not-found-content {
+
+        .not-found-image {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 160px;
+            overflow: hidden;
+
+            img {
+
+                width: 500px;
+                height: 500px;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        .sentence {
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            .title {
+                margin-bottom: 1rem;
+
+                h2 {
+                    color: var(--verdeEscuro);
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+            }
+
+            .subtitle {
+                p {
+                    color: var(--verdeEscuro);
+                    font-size: 13px;
+                    font-weight: 500;
+
+
+                    span {
+                        color: var(--verdeEscuro);
+                    }
+                }
+            }
+
+            a {
+                margin: 2rem 0rem;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+
+                .btn-contact {
+                    cursor: pointer;
+                    padding: 0px 40px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    border-radius: 50px;
+                    background-color: transparent;
+                    border: 1px solid var(--verdeEscuro);
+                    color: var(--verdeEscuro);
+                    height: 40px;
+                    width: 25vh;
+                    transform: scale(1);
+                    transition: transform ease 0.5s, background-color 0.5s, color 0.5s;
+
+                    &:hover {
+
+                        transform: scale(1.03);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*    *       Responsividade     Celular         */
+
+@media (max-width: 768px) {
+    .not-found {
+        margin-top: 0rem;
+        height: 100%;
+    }
+
+    .not-found {
+        .not-found-content {
+            margin-top: 10rem;
+
+            .not-found-image {
+                img {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+
+            .sentence {
+                .title {
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+
+                .subtitle {
+                    p {font-size: 10px;}
+                }
+
+                a {
+                    .btn-contact {font-size: 10px;}
+                }
+            }
+        }
+    }
+}
+
