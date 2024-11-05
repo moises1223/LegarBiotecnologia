@@ -62,7 +62,7 @@ const createFooter = () => {
 
                     <div class="website-info">
                         <p>© Copyright 2024. Todos os direitos reservados. Site desenvolvido pela <a
-                                href="https://abystract.vercel.app/"> Abystract
+                                href="https://abystract.com.br/"> Abystract
                                 Digital
                                 Solutions</a>
                         </p>
