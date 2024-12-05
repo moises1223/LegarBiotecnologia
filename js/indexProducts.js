@@ -1,48 +1,30 @@
 const products = [
     {
         id: 1,
-        name: "Produto 1",
-        image: "img/produto.png",
-        description: "Descrição detalhada do produto 1",
-        specifications: {
-            cor: "Azul",
-            tamanho: "M",
-            material: "Algodão"
-        }
+        name: "Option One Pro",
+        description: " Potencialize sua produtividade",
+        image: "img/Produto-OptionPro.png",
     },
     {
         id: 2,
-        name: "Produto 2",
-        image: "img/produto.png",
-        description: "Descrição detalhada do produto 2",
-        specifications: {
-            cor: "Verde",
-            tamanho: "G",
-            material: "Poliéster"
-        }
+        name: "Option One Full",
+        description: "Formulação equilibrada (25%  v/v  de aminoácidos livres)",
+        image: "img/Produto-OptionOneFull.png",
     },
     {
-        id: 3,
-        name: "Produto 3",
-        image: "img/produto.png",
-        description: "Descrição detalhada do produto 3",
-        specifications: {
-            cor: "Amarelo",
-            tamanho: "G",
-            material: "Poliéster"
-        }
+        id: 1,
+        name: "Option One Pro",
+        description: " Potencialize sua produtividade",
+        image: "img/Produto-OptionPro.png",
     },
     {
-        id: 4,
-        name: "Produto 4",
-        image: "img/produto.png",
-        description: "Descrição detalhada do produto 4",
-        specifications: {
-            cor: "Amarelo",
-            tamanho: "G",
-            material: "Poliéster"
-        }
-    }
+        id: 2,
+        name: "Option One Full",
+        description: "Formulação equilibrada (25%  v/v  de aminoácidos livres)",
+        image: "img/Produto-OptionOneFull.png",
+    },
+    
+    
     // Adicione mais produtos conforme necessário
 ];
 

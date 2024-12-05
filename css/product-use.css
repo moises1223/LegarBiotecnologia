@@ -6,7 +6,8 @@
     background-size: cover;
     background-attachment: fixed;
     /* efeito parallax */
-    height: 110vh;
+    height: 100%;
+    padding-bottom: 10rem;
 }
 
 .use-products-content {
@@ -35,7 +36,6 @@
 
     .galery-items {
         display: flex;
-        margin-bottom: 10rem;
         gap: 2rem;
 
         .galery-content {
@@ -44,7 +44,7 @@
             .image-galery {
                 display: flex;
                 justify-content: center;
-                margin-bottom: 1rem;
+                margin-bottom: 3rem;
                 width: 100%;
                 height: 220px;
 
@@ -59,17 +59,21 @@
                 font-weight: 600;
                 text-align: center;
                 color: var(--branco);
-                margin-bottom: 1rem;
+                margin-bottom: 3rem;
             }
 
-            .img-description {
-                font-size: 18px;
-                font-weight: 500;
-                text-align: center;
-                color: var(--branco);
-            }
         }
     }
+    
+    .uses {
+        padding: 0 5rem ;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        color: var(--branco);
+        margin-bottom: 3rem;
+    }
+    
 
     .sub {
         display: flex;
@@ -106,7 +110,7 @@
 
 
     .use-products {
-        height: 150vh;
+        padding-bottom: 10rem;
     }
 
     .use-products-content {
@@ -138,7 +142,7 @@
                     margin-bottom: 1rem;
                     margin-right: 1rem;
                     width: 100%;
-                    height: 50px;
+                    height: 100px;
 
                 }
 
@@ -148,6 +152,10 @@
                     color: var(--branco);
                 }
             }
+        }
+        .uses{
+            width: 100%;
+            padding: 0;
         }
 
         .sub {
@@ -173,7 +181,7 @@
 
 @media screen and (orientation: landscape) and (max-width: 768px) {
     .use-products {
-        height: 240vh;
+        
     }
 }
 
@@ -182,7 +190,7 @@
 @media (min-width: 768px) and (max-width: 1440px) {
 
     .use-products {
-        height: 80vh;
+       
     }
    
 
@@ -237,14 +245,14 @@
 
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1200px) {
     .use-products {
-        height: 100vh;
+       
     }
 }
 
 
 @media (min-width: 1024px) and (max-width: 1440px) {
     .use-products {
-        height: 150vh;
+       
     }
 }
 
