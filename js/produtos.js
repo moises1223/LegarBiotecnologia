@@ -3,7 +3,7 @@ export const products = [
         id: 1,
         name: "Option",
         subTitle: "Pro",
-        description: "Aminoácidos específicos, em alta concentração para maior proteção contra Estresse Hídrico e térmico e ativação enzimática para uma maior fotossíntese, maior tolerância e incremento de produtividade;",
+        description: "Com uma formulação única no mercado Option Pro traz  dois osmorreguladores modernos e em alta concentração + Magnésio para que as plantas tolerem melhor situações adversas, como por exemplo, o estresse hídrico.",
         images: [
             "img/Produto-OptionPro.png",
             "img/Produto-OptionPro.png",
@@ -24,42 +24,42 @@ export const products = [
                 name: "Magnésio para ativação enzimática"
             },
             {
-                icon: "img/product-section/Fertilidade.png", 
+                icon: "img/product-section/seca.png", 
                 name: "Plantas mais preparadas para suportar estresses."
             },
             {
-                icon: "img/product-section/Anti-pragas.png", 
-                name: "Aminoácidos livres."
+                icon: "img/product-section/Aplicacao.png", 
+                name: "Aminoácidos livres, obtidos via hidrólise enzimática."
             },
             {
-                icon: "img/product-section/Aplicacao.png", 
-                name: "Formulação equilibrada."
+                icon: "img/product-section/colheitadeira.png", 
+                name: "Formulação equilibrada, para preservação do potencial produtivo"
             },
             // Adicione mais especificações
         ],
         moreSpecs:[
             {
-                title:"Formulação equilibrada ",
+                title:"⦁ Formulação equilibrada",
                 content:"2 osmorreguladores modernos em alta concentração para auxiliar a planta a suportar melhor o estresse + Magnésio para ativação enzimática e uma maior eficácia da fotossíntese, mesmo em condições de temperaturas elevadas."
             },
             {
-                title:"Proteção contra Estresse Hídrico",
-                content:"A prolina atua como um 'osmólito compatível', ou seja, uma molécula que ajuda a regular o equilíbrio osmótico nas células da planta sob condições de estresse, como seca ou salinidade. Ela permite que as células mantenham a água e sua integridade estrutural, evitando danos."
+                title:"⦁ Maior Eficiência da Fotossíntese",
+                content:"Com uma composição equilibrada, Option Pro aumenta a eficiência da fotossíntese, pois a presença de magnésio na clorofila permite que as plantas capturem e utilizem a energia solar de forma mais eficaz, produzindo mais grãos."
             },
             {
-                title:"Maior Eficiência da Fotossíntese",
-                content:"Com uma composição equilibrada, Option Pro aumenta a eficiência da fotossíntese, pois a presença de magnésio na clorofila permite que as plantas capturem e utilizem a energia solar de forma mais eficaz, produzindo mais grãos. "
-            },
-            {
-                title:"Regulação do pH Celular",
-                content:"O ácido glutâmico, devido à sua capacidade de se dissociar e liberar íons hidrogênio (H+), ajuda a regular o pH intracelular. Isso é particularmente importante em condições de estresse."
-            },
-            {
-                title:"Ação Antioxidante (recuperar estresses anteriores)",
+                title:"⦁ Ação Antioxidante (recuperar estresses anteriores)",
                 content:"Em condições de estresse (como estresse hídrico), a produção de radicais livres aumenta. A prolina ajuda a proteger as células contra danos causados por esses radicais, funcionando como um agente antioxidante."
             },
             {
-                title:"Magnésio como ativador enzimático",
+                title:"⦁ Proteção contra Estresse Hídrico",
+                content:"A prolina atua como um 'osmólito compatível', ou seja, uma molécula que ajuda a regular o equilíbrio osmótico nas células da planta sob condições de estresse, como seca ou salinidade. Ela permite que as células mantenham a água e sua integridade estrutural, evitando danos."
+            },
+            {
+                title:"⦁ Regulação do pH Celular",
+                content:"O ácido glutâmico, devido à sua capacidade de se dissociar e liberar íons hidrogênio (H+), ajuda a regular o pH intracelular. Isso é particularmente importante em condições de estresse."
+            },
+            {
+                title:"⦁ Magnésio como ativador enzimático",
                 content:"O magnésio presente no Option Pro promove a ativação enzimática, contribuindo para a síntese de carboidratos, lipídios e proteínas, que são fundamentais para o crescimento, desenvolvimento e produtividade das plantas."
             },
         ]
@@ -69,7 +69,7 @@ export const products = [
         id: 2,
         name: "Option One",
         subTitle: "Full",
-        description: "Option One Full possuí em sua formulação um complexo de aminoácidos livres  de grande relevância, que atuam principalmente na tolerância a estresses",
+        description: "Option One Full possuí em sua formulação um complexo nutrientes e de aminoácidos livres, concentrados para uma rápida recuperação das plantas após situações de estresse, tornar plantas mais tolerantes e maximizar o potencial produtivo.",
         images: [
             "img/Produto-OptionOneFull.png",
             "img/Produto-OptionOneFull.png",
@@ -87,7 +87,7 @@ export const products = [
                 name: "Concentrações relevantes de: Prolina, Glicina Betaína, Serina, treonina  e ac. glutâmico."
             },
             {
-                icon: "img/product-section/Agricultura-inteligente.png", 
+                icon: "img/product-section/Aplicacao.png", 
                 name: "25% v/v de aminoácidos livres, obtidos via hidrólise enzimática."
             },
             {
@@ -125,9 +125,20 @@ export const products = [
         ],
         Uses:[
             {
-                icon:"",
-                title:"",
-            }
+                icon:"img/product-use-icons/soja.png",
+                title:"Soja",
+                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+            },
+            {
+                icon:"img/product-use-icons/milho.png",
+                title:"Milho",
+                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+            },
+            {
+                icon:"img/product-use-icons/trigo.png",
+                title:"Trigo",
+                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+            },
         ]
     },
     // Outros produtos

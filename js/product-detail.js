@@ -56,32 +56,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-        //não está funcionando para CLAUDE AJUSTAR !!!
+        // * Mais especificações
+
         const moreSpecsContent = document.querySelectorAll('.specs-cards .block1, .specs-cards .block2');
-    if (product.moreSpecs && Array.isArray(product.moreSpecs)) {
-        // Divide as "Mais Especificações" em 2 grupos de 3
-        const moreSpecsPart1 = product.moreSpecs.slice(0, 3);
-        const moreSpecsPart2 = product.moreSpecs.slice(3, 6);
+        if (product.moreSpecs && Array.isArray(product.moreSpecs)) {
+            // Divide as "Mais Especificações" em 2 grupos de 3
+            const moreSpecsPart1 = product.moreSpecs.slice(0, 3);
+            const moreSpecsPart2 = product.moreSpecs.slice(3, 6);
 
-        // Preenche o primeiro bloco
-        moreSpecsContent[0].innerHTML = moreSpecsPart1.map(moreSpec =>
-            `<div class="block">
+            // Preenche o primeiro bloco
+            moreSpecsContent[0].innerHTML = moreSpecsPart1.map(moreSpec =>
+                `<div class="block">
                 <h2>${moreSpec.title}</h2>
                 <p>${moreSpec.content}</p>
             </div>`
-        ).join('');
+            ).join('');
 
-        // Preenche o segundo bloco
-        moreSpecsContent[1].innerHTML = moreSpecsPart2.map(moreSpec =>
-            `<div class="block">
+            // Preenche o segundo bloco
+            moreSpecsContent[1].innerHTML = moreSpecsPart2.map(moreSpec =>
+                `<div class="block">
                 <h2>${moreSpec.title}</h2>
                 <p>${moreSpec.content}</p>
             </div>`
-        ).join('');
-    } else {
-        console.error("Erro: `moreSpecs` não está definido ou não é um array válido.");
-    }
-        //não está funcionando para CLAUDE AJUSTAR !!!
+            ).join('');
+        } else {
+            console.error("Erro: `moreSpecs` não está definido ou não é um array válido.");
+        }
+       
+
+
 
         // Inicializar Swiper novamente após carregar as imagens
         initializeSwiper();
