@@ -62,6 +62,23 @@ export const products = [
                 title:"⦁ Magnésio como ativador enzimático",
                 content:"O magnésio presente no Option Pro promove a ativação enzimática, contribuindo para a síntese de carboidratos, lipídios e proteínas, que são fundamentais para o crescimento, desenvolvimento e produtividade das plantas."
             },
+        ],
+        Uses:[
+            {
+                icon:"img/product-use-icons/soja.png",
+                title:"Soja",
+                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+            },
+            {
+                icon:"img/product-use-icons/milho.png",
+                title:"Milho",
+                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+            },
+            {
+                icon:"img/product-use-icons/trigo.png",
+                title:"Trigo",
+                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+            },
         ]
     },
     
@@ -76,7 +93,6 @@ export const products = [
             "img/Produto-OptionOneFull.png",
             "img/Produto-OptionOneFull.png",
         ],
-        
         specifications: [
             {
                 icon: "img/product-section/Cristais.png",

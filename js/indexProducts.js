@@ -13,7 +13,7 @@ const products = [
     },
     {
         id: 1,
-        name: "Option One Pro",
+        name: "Option Pro",
         description: " Potencialize sua produtividade",
         image: "img/Produto-OptionPro.png",
     },
