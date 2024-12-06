@@ -11,7 +11,7 @@ const createFooter = () => {
                                 <img class="brand-logo" src="img/logo.png" alt="">
                                 <p>AV PEDRO CEZAR SACCOL, 555, SALA 40 <br>- PRÉDIO A, CEP: 97030-440</p>
                                 <div class="contact">
-                                    <p>+55 00 0 0000-0000</p>
+                                    <p>+55 55 9 6604-8160</p>
                                     <p>contato.legar@legarmais.com</p>
                                 </div>
 
