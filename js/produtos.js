@@ -1,7 +1,7 @@
 export const products = [
     {
         id: 1,
-        name: "Option",
+        name: "Option Pro",
         subTitle: "Pro",
         description: "Com uma formulação única no mercado Option Pro traz  dois osmorreguladores modernos e em alta concentração + Magnésio para que as plantas tolerem melhor situações adversas, como por exemplo, o estresse hídrico.",
         images: [
@@ -63,21 +63,21 @@ export const products = [
                 content:"O magnésio presente no Option Pro promove a ativação enzimática, contribuindo para a síntese de carboidratos, lipídios e proteínas, que são fundamentais para o crescimento, desenvolvimento e produtividade das plantas."
             },
         ],
-        Uses:[
+        Uses:[  
             {
                 icon:"img/product-use-icons/soja.png",
                 title:"Soja",
-                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+                obsforuse:"Efetuar aplicação em fase vegetativa e pré-florescimento. A aplicação deve ser realizada preferencialmente antes ou imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
             },
             {
                 icon:"img/product-use-icons/milho.png",
                 title:"Milho",
-                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+                obsforuse:"Efetuar aplicação em fase vegetativa e pré-florescimento. A aplicação deve ser realizada preferencialmente antes ou imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
             },
             {
                 icon:"img/product-use-icons/trigo.png",
                 title:"Trigo",
-                obsforuse:"Efetuar aplicação na fase reprodutiva ou quando utilizado para mitigar estresses, utilizar imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
+                obsforuse:"Efetuar aplicação em fase vegetativa e pré-florescimento. A aplicação deve ser realizada preferencialmente antes ou imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa."
             },
         ]
     },

@@ -82,13 +82,37 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             console.error("Erro: `moreSpecs` não está definido ou não é um array válido.");
         }
-       
 
+        const galleryItems = document.querySelector('.galery-items');
+        const usesSubtitle = document.querySelector('.uses-subtitile .uses');
 
+        // Clear existing gallery items
+        galleryItems.innerHTML = '';
+
+        // Populate gallery items from Uses array
+        product.Uses.forEach(use => {
+            const galleryContent = document.createElement('div');
+            galleryContent.classList.add('galery-content');
+
+            galleryContent.innerHTML = `
+                <div class="image-galery">
+                    <img src="${use.icon}" alt="${use.title}">
+                </div>
+                <h2 class="title">${use.title}</h2>
+            `;
+
+            galleryItems.appendChild(galleryContent);
+        });
+
+        // Set the uses subtitle text
+        // If you want to use the first item's obsforuse, or a default text
+        usesSubtitle.textContent = product.Uses[0].obsforuse || 
+            "Efetuar aplicação em fase vegetativa e pré-florescimento. A aplicação deve ser realizada preferencialmente antes ou imediatamente após a situação de estresse. Para ajuste da dose em função a cultura ou do momento de uso, consultar um representante da empresa.";
+    }
 
         // Inicializar Swiper novamente após carregar as imagens
         initializeSwiper();
-    }
+    
 });
 
 function initializeSwiper() {
