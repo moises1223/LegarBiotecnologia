@@ -6,7 +6,8 @@
     width: 100%;
     background-image: url('../img/bgfooter.png');
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 100%;
+    padding-bottom: 8rem;
     background-size: cover;
 
     .section-footer-content {
@@ -178,7 +179,8 @@
 
 @media (max-width: 768px) {
     .sec-footer {
-        height: 200vh;
+        height: 100%;
+        padding-bottom: 8rem;
 
         .sectionfooter {
             text-align: center;
@@ -190,55 +192,18 @@
 
                     .block1 {
                         .block-content {
-                            .brand-logo {}
-
-                            p {}
-
                             .contact {
                                 display: flex;
                                 flex-direction: column;
-
-                                p {}
                             }
-
-
                         }
                     }
-
-                    .block2 {}
-
-                    .block3 {}
                 }
 
                 .website-info {
                     text-align: center;
                 }
-
             }
         }
-    }
-}
-
-/*     *      Responsividade     Landscape     Celular    */
-
-@media screen and (orientation: landscape) and (max-width: 768px) {
-    .sec-footer {
-        height: 320vh;
-    }
-}
-
-/*     *      Responsividade     Tablet         */
-
-@media (min-width: 768px) and (max-width: 1440px) {
-    .sec-footer {
-        height: 50vh;
-    }
-}
-
-/*     *      Responsividade     Tablet  Landscape       */
-
-@media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1440px) {
-    .sec-footer {
-        height: 80vh;
     }
 }
