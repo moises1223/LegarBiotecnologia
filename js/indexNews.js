@@ -1,6 +1,6 @@
  const news = [
     {
-        id: 1,
+        id:'/blog1.html',
         image: 'img/blog-section-home/news-cover.png',
         icon: 'img/tractor 1.png',
         title: 'Prolina: Ferramenta indispensável para a manutenção da produtividade em anos de seca',
@@ -46,7 +46,7 @@ function createBlogCards() {
         cardItem.className = 'card-item swiper-slide';
         
         const cardLink = document.createElement('a');
-        cardLink.href = `blog.html?id=${article.id}`;
+        cardLink.href = `${article.id}`;
         cardLink.className = 'card-link';
         
         cardLink.innerHTML = `
