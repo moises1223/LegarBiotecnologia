@@ -1,6 +1,6 @@
  const news = [
     {
-        id:'/blog1.html',
+        id:'/blog.html',
         image: 'img/blog-section-home/news-cover.png',
         icon: 'img/tractor 1.png',
         title: 'Prolina: Ferramenta indispensável para a manutenção da produtividade em anos de seca',
@@ -8,7 +8,7 @@
 
     },
     {
-        id: 2,
+        id: '/blog1.html',
         image: 'img/blog-section-home/BLOGcapa.png',
         icon: 'img/botany 1.png',
         title: 'Importância e benefícios da Prolina no combate à seca',
@@ -16,7 +16,7 @@
 
     },
     {
-        id: 1,
+        id:'/blog.html',
         image: 'img/blog-section-home/news-cover.png',
         icon: 'img/tractor 1.png',
         title: 'Prolina: Ferramenta indispensável para a manutenção da produtividade em anos de seca',
@@ -24,13 +24,14 @@
 
     },
     {
-        id: 2,
+        id: '/blog1.html',
         image: 'img/blog-section-home/BLOGcapa.png',
         icon: 'img/botany 1.png',
         title: 'Importância e benefícios da Prolina no combate à seca',
         description: 'A deficiência hídrica é um dos principais limitantes da produtividade das lavouras brasileiras de soja, causando quedas significativas na produção das safras de verão. [...] Ler mais'
 
     },
+    
 
 ]
 
