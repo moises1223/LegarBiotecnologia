@@ -17,7 +17,7 @@ export const products = [
             },
             {
                 icon: "img/product-section/Fertilidade.png", 
-                name: "Ácido Glutâmico em alta concentração"
+                name: "Glicina betaína em alta concentração."
             },
             {
                 icon: "img/product-section/Resistencia.png", 
@@ -55,8 +55,8 @@ export const products = [
                 content:"A prolina atua como um 'osmólito compatível', ou seja, uma molécula que ajuda a regular o equilíbrio osmótico nas células da planta sob condições de estresse, como seca ou salinidade. Ela permite que as células mantenham a água e sua integridade estrutural, evitando danos."
             },
             {
-                title:"⦁ Regulação do pH Celular",
-                content:"O ácido glutâmico, devido à sua capacidade de se dissociar e liberar íons hidrogênio (H+), ajuda a regular o pH intracelular. Isso é particularmente importante em condições de estresse."
+                title:"⦁ Proteção das células",
+                content:"A glicina betaína estabiliza as membranas celulares e as proteínas das plantas, protegendo-as de danos térmicos. "
             },
             {
                 title:"⦁ Magnésio como ativador enzimático",
